@@ -1,0 +1,3 @@
+[submodule "exercises/first"]
+	path = exercises/first
+	url = git://github.com/itkoren/Lets-Node-ex-1.git
