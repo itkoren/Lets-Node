@@ -1,3 +1,6 @@
 [submodule "exercises/first"]
 	path = exercises/first
 	url = git://github.com/itkoren/Lets-Node-ex-1.git
+[submodule "exercises/second"]
+	path = exercises/second
+	url = git://github.com/itkoren/Lets-Node-ex-2.git
