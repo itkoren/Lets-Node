@@ -1,4 +1,4 @@
-Lets-Node-1
+Lets-Node
 ===========
 
-Lets Node Part 1
+Lets Node Course
