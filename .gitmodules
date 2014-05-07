@@ -1,6 +1,30 @@
 [submodule "exercises/first"]
 	path = exercises/first
-	url = git://github.com/itkoren/Lets-Node-ex-1.git
+	url = git@github.com:itkoren/Lets-Node-ex-1.git
 [submodule "exercises/second"]
 	path = exercises/second
-	url = git://github.com/itkoren/Lets-Node-ex-2.git
+	url = git@github.com:itkoren/Lets-Node-ex-2.git
+[submodule "exercises/third"]
+	path = exercises/third
+	url = git@github.com:itkoren/Lets-Node-ex-3.git
+[submodule "exercises/forth"]
+	path = exercises/forth
+	url = git@github.com:itkoren/Lets-Node-ex-4.git
+[submodule "exercises/fifth"]
+	path = exercises/fifth
+	url = git@github.com:itkoren/Lets-Node-ex-5.git
+[submodule "exercises/sixth"]
+	path = exercises/sixth
+	url = git@github.com:itkoren/Lets-Node-ex-6.git
+[submodule "exercises/seventh"]
+	path = exercises/seventh
+	url = git@github.com:itkoren/Lets-Node-ex-7.git
+[submodule "exercises/eighth"]
+	path = exercises/eighth
+	url = git@github.com:itkoren/Lets-Node-ex-8.git
+[submodule "exercises/ninth"]
+	path = exercises/ninth
+	url = git@github.com:itkoren/Lets-Node-ex-9.git
+[submodule "exercises/tenth"]
+	path = exercises/tenth
+	url = git@github.com:itkoren/Lets-Node-ex-10.git
