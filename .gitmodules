@@ -28,3 +28,6 @@
 [submodule "exercises/tenth"]
 	path = exercises/tenth
 	url = git@github.com:itkoren/Lets-Node-ex-10.git
+[submodule "prerequisites"]
+	path = prerequisites
+	url = git@github.com:itkoren/Lets-Node-prerequisites.git
