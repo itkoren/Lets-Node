@@ -712,6 +712,33 @@
         [{
             "name": "img",
             "attributes": {
+                "class": "absolute-element",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2685182/b39084f2-c1c5-11e3-8bd3-0cde5ccb4067.jpg",
+                "style": "font-size: 65px; color: rgb(0, 0, 0); position: absolute; max-height: none; max-width: none; width: 712px; height: 565px; z-index: 4; left: 130px; top: 17px;"
+            }
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2685181/b38f73b4-c1c5-11e3-8e21-5d657dd053cf.jpg",
+                "style": "font-size: 65px; color: rgb(0, 0, 0); position: absolute; max-height: none; max-width: none; width: 712px; height: 565px; z-index: 4; left: 130px; top: 17px;"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "@PayPal"
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3074146/4d81972c-e327-11e3-94bb-9d53a69d67e9.png",
+                "style": "font-size: 65px; color: rgb(0, 0, 0); position: absolute; max-height: none; max-width: none; width: 712px; height: 565px; z-index: 4; left: 130px; top: 97px;"
+            }
+        }],
+        [{
+            "name": "img",
+            "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/2686862/55e7f808-c224-11e3-91af-205e685eaa9a.jpg",
                 "class": "absolute-element",
                 "style": "position: absolute; max-height: none; max-width: none; width: 246px; height: 176px; z-index: 4; left: 2px; top: 194px;"
@@ -883,10 +910,17 @@
             }]
         }],
         [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2685173/b36e8456-c1c5-11e3-9d63-cf90e71545a4.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 867px; height: 394px; z-index: 4; left: 40px; top: 10px;"
+            }
+        },{
             "name": "h3",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 966px; height: 94px; z-index: 4; left: -2px; top: 247px;"
+                "style": "position: absolute; width: 966px; height: 94px; z-index: 4; left: -2px; top: 447px;"
             },
             "value": "A good example for a DIRTy application written with Node is <a href=\"https://browserling.com/\">Browserling</a>"
         }]
