@@ -90,7 +90,7 @@ Reveal.initialize({
 		{ src: 'http://gh.itkoren.com/revealular/js/console-notes.js', condition: function() { return !!document.body.classList; } },
 	
 		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } } //,
+		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 	]
   });
