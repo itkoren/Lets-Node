@@ -74,28 +74,23 @@ Reveal.initialize({
 	// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
 	// parallaxBackgroundSize: '2100px 900px',
   
-	multiplex: {
-		// Example values. To generate your own, see the socket.io server instructions.
-		secret: '13981818338918672164', // Obtained from the socket.io server. Gives this (the master) control of the presentation
-		id: 'd95282adc96a09f1', // Obtained from socket.io server
-		url: 'ln.itkoren.com:1948' // Location of socket.io server
-	},
+//	multiplex: {
+//		// Example values. To generate your own, see the socket.io server instructions.
+//		secret: '13981818338918672164', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+//		id: 'd95282adc96a09f1', // Obtained from socket.io server
+//		url: 'ln.itkoren.com:1948' // Location of socket.io server
+//	},
 	
 	// Optional libraries used to extend on reveal.js
 	dependencies: [
-		{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
-		{ src: 'reaveal.js/plugin/multiplex/master.js', async: true },
 		// and if you want speaker notes
-		{ src: 'reaveal.js/plugin/notes-server/client.js', async: true },
-		{ src: 'reaveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-		{ src: 'reaveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-		{ src: 'reaveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-		
+		{ src: 'http://gh.itkoren.com/revealular/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
 		// Browser Console Speaker Notes
-		{ src: 'js/console-notes.js', condition: function() { return !!document.body.classList; } },
+		{ src: 'http://gh.itkoren.com/revealular/js/console-notes.js', condition: function() { return !!document.body.classList; } },
 	
-		{ src: 'reaveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-		{ src: 'reaveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } } //,
-		{ src: 'reaveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } } //,
+		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 	]
   });
