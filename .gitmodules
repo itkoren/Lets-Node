@@ -31,3 +31,6 @@
 [submodule "prerequisites"]
 	path = prerequisites
 	url = git@github.com:itkoren/Lets-Node-prerequisites.git
+[submodule "examples"]
+	path = examples
+	url = git@github.com:itkoren/Lets-Node-examples.git
