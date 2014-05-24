@@ -1174,6 +1174,44 @@
             ]
         }],
         [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 740px; height: 460px; z-index: 4; left: 90px; top: 88px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2687066/3740db46-c232-11e3-8b64-235d3cc52beb.png",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 740px; height: 460px; z-index: 4; left: 90px; top: 88px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2687067/37447062-c232-11e3-90ca-6c1164ba28a7.png",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
             "name": "h2",
             "value": "Benefits"
         }, {
