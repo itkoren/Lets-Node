@@ -916,7 +916,7 @@
                 "class": "absolute-element",
                 "style": "position: absolute; max-height: none; max-width: none; width: 867px; height: 394px; z-index: 4; left: 40px; top: 10px;"
             }
-        },{
+        }, {
             "name": "h3",
             "attributes": {
                 "class": "absolute-element",
@@ -2013,6 +2013,16 @@
             "name": "iframe",
             "attributes": {
                 "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..8.1.handson-tcp.js",
+                "style": "width: 916px; height: 645px; max-height: none; max-width: none;"
+            }
+        }],
+        [{
+            "name": "p",
+            "value": "A debugging note:"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..8.2.handson-debug-node-inspector.sh",
                 "style": "width: 916px; height: 645px; max-height: none; max-width: none;"
             }
         }],
