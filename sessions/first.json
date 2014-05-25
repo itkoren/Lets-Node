@@ -2244,7 +2244,7 @@
             "name": "iframe",
             "attributes": {
                 "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..9.leaking.closure.js",
-                "style": "width: 915px; height: 529px; max-height: none; max-width: none;"
+                "style": "width: 915px; height: 629px; max-height: none; max-width: none;"
             }
         }],
         [{
@@ -2254,26 +2254,32 @@
             "name": "iframe",
             "attributes": {
                 "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..9.leaking.event-listener.js",
-                "style": "width: 915px; height: 510px; max-height: none; max-width: none;"
+                "style": "width: 915px; height: 629px; max-height: none; max-width: none;"
             }
         }],
         [{
             "name": "h2",
-            "value": "Memory leaks are usually hard to detect<br>"
+            "value": "Memory leaks are hard to detect<br>"
         }, {
-            "name": "h2",
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "0"
             },
             "value": "Mistakes within large amount of code"
         }, {
-            "name": "h2",
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "1"
             },
-            "value": "Doesn't affect the functionality of the application until the memory starvation occurs"
+            "value": "No functionality affect until memory starvation occurs"
         }],
         [{
             "name": "h2",
@@ -2467,7 +2473,7 @@
             "name": "iframe",
             "attributes": {
                 "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.10.node-modules.require-psuedo.hs",
-                "style": "width: 915px; height: 564px; max-height: none; max-width: none;"
+                "style": "width: 915px; height: 664px; max-height: none; max-width: none;"
             }
         }],
         [{
@@ -2543,7 +2549,7 @@
             "attributes": {
                 "class": "fragment absolute-element",
                 "data-fragment-index": "2",
-                "style": "position: absolute; width: 894px; height: 88px; z-index: 8; left: 27px; top: 316px; max-height: none; max-width: none;"
+                "style": "position: absolute; width: 894px; height: 108px; z-index: 8; left: 27px; top: 316px; max-height: none; max-width: none;"
             },
             "value": "npm install require.async"
         }, {
