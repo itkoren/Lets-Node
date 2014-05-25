@@ -2131,14 +2131,14 @@
                         "class": "fragment",
                         "data-fragment-index": "0"
                     },
-                    "value": "Memory allocated which is unable to be GC'd &amp; reallocated even after it's not being used"
+                    "value": "Memory which cannot be GC'd and reallocated even after it's not being used"
                 }, {
                     "name": "li",
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "1"
                     },
-                    "value": "Although we do not have the DOM memory management problems like in the browser, memory leaks are still possible and we should be aware of it"
+                    "value": "No DOM memory management problems, but memory leaks are still possible"
                 }]
             }]
         }],
@@ -2175,21 +2175,21 @@
                         "class": "fragment",
                         "data-fragment-index": "0"
                     },
-                    "value": "V8 becomes increasingly aggressive about garbage collection, slowing your app down"
+                    "value": "V8 becomes aggressive"
                 }, {
                     "name": "li",
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "1"
                     },
-                    "value": "Leaky code can hang on to references to limited resources. You may run out of file descriptors"
+                    "value": "You may run out of file descriptors"
                 }, {
                     "name": "li",
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "2"
                     },
-                    "value": "And sooner or later, your app will crash - and it will happen when you least expect it to happen"
+                    "value": "Sooner or later, your app will crash"
                 }]
             }]
         }],
@@ -2214,7 +2214,7 @@
                         "class": "fragment",
                         "data-fragment-index": "0"
                     },
-                    "value": "Javacript Closures - closures maintain references to things in their scope"
+                    "value": "Closures - closures maintain references to things in their scope"
                 }, {
                     "name": "li",
                     "attributes": {
@@ -2228,9 +2228,14 @@
                         "class": "fragment",
                         "data-fragment-index": "2"
                     },
-                    "value": "Circular references - two objects reference each other in such a way that both objects retain each other"
+                    "value": "Circular references"
                 }]
             }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Circular references - two objects reference each other in such a way that both objects retain each other"
+            ]
         }],
         [{
             "name": "h2",
@@ -2261,14 +2266,14 @@
                 "class": "fragment",
                 "data-fragment-index": "0"
             },
-            "value": "Caused by some unintentional mistakes within large amount of code"
+            "value": "Mistakes within large amount of code"
         }, {
             "name": "h2",
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "1"
             },
-            "value": "Doesn't affect the functionality of the application until the memory starvation occurs in the system"
+            "value": "Doesn't affect the functionality of the application until the memory starvation occurs"
         }],
         [{
             "name": "h2",
@@ -2363,14 +2368,14 @@
                         "class": "fragment",
                         "data-fragment-index": "0"
                     },
-                    "value": "Modules are the building blocks (code packages) of a Node applications"
+                    "value": "Modules are building blocks"
                 }, {
                     "name": "li",
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "1"
                     },
-                    "value": "Some modules are packaged with Node distribution and represents the core API"
+                    "value": "Core Modules are packaged with Node distribution"
                 }, {
                     "name": "li",
                     "attributes": {
@@ -2398,7 +2403,7 @@
                         "class": "fragment",
                         "data-fragment-index": "0"
                     },
-                    "value": "When you require() a module, you can use name, relative or absolute paths"
+                    "value": "require() for module, can use name, relative or absolute paths"
                 }, {
                     "name": "li",
                     "attributes": {
@@ -2428,14 +2433,14 @@
                             "class": "fragment",
                             "data-fragment-index": "4"
                         },
-                        "value": "Traverse up and check for existence of the module"
+                        "value": "Traverse up"
                     }, {
                         "name": "li",
                         "attributes": {
                             "class": "fragment",
                             "data-fragment-index": "5"
                         },
-                        "value": "Paths outlined in the require.paths array (can be extended with environment variables or code)"
+                        "value": "require.paths array (extensible with environment variables or code)"
                     }]
                 }, {
                     "name": "li",
@@ -2443,7 +2448,7 @@
                         "class": "fragment",
                         "data-fragment-index": "6"
                     },
-                    "value": "Searching for modules is done by looking for a physical file, then a directory with index.js and then a directory with package.json"
+                    "value": "Searching = Looking for a physical file, then a directory with index.js and then a directory with package.json"
                 }]
             }]
         }, {
@@ -2471,7 +2476,7 @@
                 "class": "absolute-element",
                 "style": "position: absolute; width: 885px; height: 46px; z-index: 4; left: 40px; top: 130px;"
             },
-            "value": "A call to require() function returns module.exports object"
+            "value": "require() function returns module.exports object"
         }, {
             "name": "p",
             "attributes": {
@@ -2479,7 +2484,7 @@
                 "data-fragment-index": "0",
                 "style": "position: absolute; width: 840px; height: 139px; z-index: 4; left: 60px; top: 256px; max-height: none; max-width: none;"
             },
-            "value": "require() function is actually re-defined for the current module, and calls an internal function loadModule with a reference to the current Module"
+            "value": "require() function is re-defined for the current module"
         }, {
             "name": "div",
             "attributes": {
@@ -2508,7 +2513,7 @@
                 "class": "absolute-element",
                 "style": "position: absolute; width: 672px; height: 64px; z-index: 5; left: 148px; top: 12px;"
             },
-            "value": "require is Syncronious"
+            "value": "require is Synchronous"
         }, {
             "name": "div",
             "attributes": {
@@ -2524,7 +2529,7 @@
                 "data-fragment-index": "1",
                 "style": "position: absolute; width: 920px; height: 100px; z-index: 7; left: 21px; top: 197px; max-height: none; max-width: none;"
             },
-            "value": "there used to be an asynchronous version of require() named require.async() (removed a year ago)"
+            "value": "Used to be asynchronous version, named require.async() (removed a year ago)"
         }, {
             "name": "div",
             "attributes": {
@@ -2532,7 +2537,15 @@
                 "data-fragment-index": "2",
                 "style": "position: absolute; width: 894px; height: 88px; z-index: 8; left: 27px; top: 316px; max-height: none; max-width: none;"
             },
-            "value": "there is a community module named require.async which can be used instead"
+            "value": "A community module named require.async"
+        }, {
+            "name": "code",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "2",
+                "style": "position: absolute; width: 894px; height: 88px; z-index: 8; left: 27px; top: 316px; max-height: none; max-width: none;"
+            },
+            "value": "npm install require.async"
         }, {
             "name": "iframe",
             "attributes": {
@@ -2579,7 +2592,7 @@
                 "class": "absolute-element",
                 "style": "position: absolute; width: 895px; height: 138px; z-index: 4; left: 28px; top: 119px; max-height: none; max-width: none;"
             },
-            "value": "requiring a module actually means, bringing the required module to the current scope and not making it available globally"
+            "value": "requiring a module === put module to the current scope and not making it available globally"
         }, {
             "name": "div",
             "attributes": {
@@ -2587,7 +2600,7 @@
                 "data-fragment-index": "1",
                 "style": "position: absolute; width: 854px; height: 94px; z-index: 4; left: 54px; top: 289px; max-height: none; max-width: none;"
             },
-            "value": "The first time Node loads a module via require() it caches the result!"
+            "value": "require() caches the results!"
         }, {
             "name": "div",
             "attributes": {
@@ -2595,7 +2608,7 @@
                 "data-fragment-index": "2",
                 "style": "position: absolute; width: 884px; height: 93px; z-index: 4; left: 33px; top: 425px; max-height: none; max-width: none;"
             },
-            "value": "The reason this is necessary is to <a href=\"http://nodejs.org/docs/latest/api/modules.html#modules_cycles\">allow cycles to be resolved</a>"
+            "value": "In order to <a href=\"http://nodejs.org/docs/latest/api/modules.html#modules_cycles\">allow cycles to be resolved</a>"
         }, {
             "name": "div",
             "attributes": {
@@ -2603,10 +2616,12 @@
                 "data-fragment-index": "3",
                 "style": "position: absolute; width: 905px; height: 93px; z-index: 4; left: 27px; top: 558px; max-height: none; max-width: none;"
             },
-            "value": "Be aware that like in requirejs, caching causes all modules to act as singletons"
+            "value": "Like in requirejs, caching causes all modules to act as singletons"
         }, {
             "name": "notes",
             "value": [
+                "requiring a module === bringing the module to the current scope and not making it available globally",
+                "",
                 "module.js",
                 "    module.exports = {",
                 "    name: \"Default name\",",
@@ -2636,7 +2651,7 @@
                 "class": "fragment",
                 "data-fragment-index": "0"
             },
-            "value": "While modules are cached by require, it is possible to use a function to create a new variable scope"
+            "value": "It is possible to use a (factory) function, to create a new variable scope"
         }, {
             "name": "p",
             "value": "<br>"
@@ -2674,7 +2689,7 @@
                 "data-fragment-index": "0",
                 "style": "position: absolute; width: 930px; height: 93px; z-index: 4; left: 14px; top: 98px; max-height: none; max-width: none;"
             },
-            "value": "There are rare cases that you would like to flush the require cache for a specific module"
+            "value": "In rare cases, you would like to flush the require cache"
         }, {
             "name": "p",
             "attributes": {
@@ -2691,6 +2706,11 @@
                 "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.10.require.scope.js",
                 "style": "width: 916px; height: 456px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 21px; top: 241px;"
             }
+        }, {
+            "name": "notes",
+            "value": [
+                "In rare cases, you would like to flush the require cache for a specific module - usually it should not be used"
+            ]
         }],
         [{
             "name": "pre",
