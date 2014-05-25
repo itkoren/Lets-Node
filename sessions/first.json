@@ -2549,7 +2549,7 @@
             "attributes": {
                 "class": "fragment absolute-element",
                 "data-fragment-index": "2",
-                "style": "position: absolute; width: 894px; height: 108px; z-index: 8; left: 27px; top: 316px; max-height: none; max-width: none;"
+                "style": "position: absolute; width: 894px; height: 108px; z-index: 8; left: 27px; top: 416px; max-height: none; max-width: none;"
             },
             "value": "npm install require.async"
         }, {
