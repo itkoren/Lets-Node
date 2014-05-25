@@ -2545,7 +2545,7 @@
             },
             "value": "A community module named require.async"
         }, {
-            "name": "code",
+            "name": "p",
             "attributes": {
                 "class": "fragment absolute-element",
                 "data-fragment-index": "2",
