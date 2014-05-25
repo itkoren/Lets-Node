@@ -59,39 +59,39 @@ Reveal.initialize({
 	theme: queryHash.theme, // available themes are in /css/theme
 	
 	// Transition style
-	transition: queryHash.transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+	transition: queryHash.transition || "default", // default/cube/page/concave/zoom/linear/fade/none
   
 	// Transition speed
-	transitionSpeed: 'default', // default/fast/slow
+	transitionSpeed: "default", // default/fast/slow
 
 	// Transition style for full page slide backgrounds
-	backgroundTransition: 'default', // default/none/slide/concave/convex/zoom
+	backgroundTransition: "default", // default/none/slide/concave/convex/zoom
 
 	// Number of slides away from the current that are visible
 	viewDistance: 3,
 
 	// Parallax scrolling
-	// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-	// parallaxBackgroundSize: '2100px 900px',
+	// parallaxBackgroundImage: "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg",
+	// parallaxBackgroundSize: "2100px 900px",
   
 //	multiplex: {
 //		// Example values. To generate your own, see the socket.io server instructions.
-//		secret: '13981818338918672164', // Obtained from the socket.io server. Gives this (the master) control of the presentation
-//		id: 'd95282adc96a09f1', // Obtained from socket.io server
-//		url: 'ln.itkoren.com:1948' // Location of socket.io server
+//		secret: "13981818338918672164", // Obtained from the socket.io server. Gives this (the master) control of the presentation
+//		id: "d95282adc96a09f1", // Obtained from socket.io server
+//		url: "ln.itkoren.com:1948" // Location of socket.io server
 //	},
 	
 	// Optional libraries used to extend on reveal.js
 	dependencies: [
 		// and if you want speaker notes
-		{ src: 'http://gh.itkoren.com/revealular/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: "http://gh.itkoren.com/revealular/reveal.js/lib/js/classList.js", condition: function() { return !document.body.classList; } },
 
-		// Browser Console Speaker Notes
-		{ src: 'http://gh.itkoren.com/revealular/js/console-notes.js', condition: function() { return !!document.body.classList; } },
-	
-		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-        { src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } },
-		{ src: 'http://gh.itkoren.com/revealular/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		{ src: "http://gh.itkoren.com/revealular/reveal.js/plugin/highlight/highlight.js", async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: "http://gh.itkoren.com/revealular/reveal.js/plugin/zoom-js/zoom.js", async: true, condition: function() { return !!document.body.classList; } },
+        { src: "http://gh.itkoren.com/revealular/reveal.js/plugin/search/search.js", async: true, condition: function() { return !!document.body.classList; } },
+		{ src: "http://gh.itkoren.com/revealular/reveal.js/plugin/notes/notes.js", async: true, condition: function() { return !!document.body.classList; } },
+
+        // Browser Console Speaker Notes
+        { src: "http://gh.itkoren.com/revealular/js/console-notes.js", async: true, condition: function() { return !!document.body.classList; } }
 	]
   });
