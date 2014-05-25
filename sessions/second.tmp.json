@@ -1,0 +1,1689 @@
+[{
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2860198/fa446d6a-d1c3-11e3-8626-cd41c1eff2c0.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 587px; height: 294px; z-index: 4; left: 310px; top: 327px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 443px; height: 95px; z-index: 4; left: 118px; top: 214px;"
+            },
+            "value": "Core Modules"
+        }],
+        [{
+            "name": "p",
+            "value": "Node ships with a thin layer of <a href=\"http://nodejs.org/api/\">core modules</a> which gives us the built in functionality"
+        }, {
+            "name": "div",
+            "value": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c11\"><tbody><tr class=\"c15\"><td class=\"c14\"><p class=\"c4\"><span class=\"c7\">Fundamentals</span></p><ul class=\"c5 lst-kix_gwnflanj26xd-0 start\"><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fglobals.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGWy28s1NX1YGd-Jj8aNqpVFkoecQ\">Globals</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fstdio.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHf4p_u-lVzlHdLWcUYPlaMmelGmw\">STDIO</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Ftimers.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH6hjWCGfw7Ny-NVrTq0AZZ3oKx1A\">Timers</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fmodules.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH75i7AZrCr-kJlnO3BK36lBvk5UA\">Modules</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fevents.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEBUSx0Vc_H9PhRRAvcEPToe_rdLQ\">Events</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fbuffers.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNF8LPVFNgoIrUaZewOaw-LY9ZIhbQ\">Buffers</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fstreams.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH7Ia9HrysCwL7d0zlAyQsTUcFOBg\">Streams</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Faddons.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFfZHTL-9eqWtogyanXsZ3aVetZKw\">C/C++ Addons</a></span></li></ul></td><td class=\"c13\"><p class=\"c4\"><span class=\"c7\">Network I/O</span></p><ul class=\"c5 lst-kix_bijcliqkqgr4-0 start\"><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fhttp.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFB1aQe5hjBfOio1XcqV2RCqrYc9Q\">HTTP</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fhttps.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH6_NlidgGQyskOi-VkN1hBeYE7wg\">HTTPS</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Furl.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNE3Ath6foR3AVSloQ8jIFulr1xHxQ\">URL</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fquerystring.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEEyzvPJUOYII50m55hgJCgco9Big\">Query Strings</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fnet.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNE5XvhIpkUYIpig5QQi4TWKoOOLbA\">Net</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fdgram.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHDVzVX-Y2vPSTTs94RaxLq3JjC0w\">UDP/Datagram</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fdns.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGETDRLf-lDSB10zvFQlC2mUzzgsw\">DNS</a></span></li></ul></td><td class=\"c6\"><p class=\"c4\"><span class=\"c7\">File system I/O</span></p><ul class=\"c5 lst-kix_7dkzy785gh34-0 start\"><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Ffs.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH47AFD82QxuVi1R9ZtwxmegyQggw\">File System</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fpath.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGudDDi-dFlNrkXd-78F19oT0vTuw\">Path</a></span></li></ul><p class=\"c4\"><span class=\"c7\">Process I/O and V8 VM</span></p><ul class=\"c5 lst-kix_mhunix8r711p-0 start\"><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fprocess.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFgYGHfXrES1qIrJ9IyqD0n_ycKRw\">Process</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fvm.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEcBRoqx5NitKIU6QC-7P0O5qGBVw\">VM</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fchild_processes.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGk-pXARepXt4gqVDlYyKpTR2mN3A\">Child Processes</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fcluster.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGAyQ8QhHkYPlPCa0nrYpbSzAfuhQ\">Cluster</a></span></li></ul></td></tr><tr class=\"c15\"><td class=\"c14\"><p class=\"c4\"><span class=\"c7\">Terminal/console</span></p><ul class=\"c5 lst-kix_sctwehcnpbn8-0 start\"><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Frepl.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNF8ZUusoi4AYJUahyPrmv2W8rZqLg\">REPL</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Freadline.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHEZ_uN_kExNnTqP5D77cdpLBNieg\">Readline</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Ftty.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFwo1mvb-cBaeE_myKm-xxcvj9pzw\">TTY</a></span></li></ul></td><td class=\"c13\"><p class=\"c4\"><span class=\"c7\">Testing &amp; debugging</span></p><ul class=\"c5 lst-kix_u6grw7p1wzmw-0 start\"><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fassert.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEPhLkAjHKHtxPMTWc42CdD6kasHA\">Assertion Testing</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fdebugger.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGKcjHMbherqVtar6lcSvgWb2sQOA\">Debugger</a></span></li><li class=\"c0\"><span class=\"c3\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Futil.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFke6aAykrQgXpHbeX-9Ctg63en5g\">Utilities</a></span></li></ul></td><td class=\"c6\"><p class=\"c4\"><span class=\"c7\">Misc</span></p><ul class=\"c5 lst-kix_tmi1wieu8tva-0 start\"><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fcrypto.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHDdEHZfnMknU3Jj54xXrcgpKQtWA\">Crypto</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Ftls.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFdwcDouwMlFqG2LtQ9AkfMLLyMZw\">TLS/SSL</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fstring_decoder.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHWBMl2mfYJyJkBJcMf6SkpmhumGA\">String Decoder</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fzlib.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGEjHSb7on-b4KNLPkNDoc1WjkKsg\">ZLIB</a></span></li><li class=\"c0\"><span class=\"c2\"><a class=\"c1\" href=\"http://www.google.com/url?q=http%3A%2F%2Fnodejs.org%2Fapi%2Fos.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEVjVB7IkWIZTE0wQ-bFOzgMUpG8A\">OS</a></span></li></ul></td></tr></tbody></table>"
+        }, {
+            "name": "notes",
+            "value": [
+                "A vast majority of Node’s core functionality is implemented using modules written in Javascript",
+                "Node module has a number of variables which are available by default - process, __dirname, __filename, require.main",
+                "",
+                "console.log(\"Basic string logging\");",
+                "",
+                "var obj = {1: true, 2: false};",
+                "console.log(obj);",
+                "",
+                "console.log(\"This is a number: %d, and this is a string: %s, and this is a JSON object: %j\", 42, \"Hello\", obj);",
+                "",
+                "console.log(\"Warn\");",
+                "",
+                "console.trace();",
+                "",
+                "console.time(\"gettime\");",
+                "function getTime() {",
+                "  for (var i = 0; i < 5000; i++) {",
+                "    console.log(\"line \" + i);",
+                "  }",
+                "}",
+                "console.timeEnd(\"gettime\");"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2861785/cdb051b6-d1e5-11e3-9367-f8d4de762863.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 437px; height: 380px; z-index: 4; left: 310px; top: 327px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 443px; height: 95px; z-index: 4; left: 118px; top: 214px;"
+            },
+            "value": "NPM Overview"
+        }],
+        [{
+            "name": "h2",
+            "value": "What is NPM?"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Official Node Package manager"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Official Node Modules <a href=\"https://www.npmjs.org/\">Repository</a>"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Starting Node Projects"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "Maintaining Node Projects"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "NPM started as a package manager for Node but today it does other things as well",
+                "Since version 0.6.4 it is built in to Node"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "NPM can manage global packages and local packages"
+        }],
+        [{
+            "name": "h3",
+            "value": "Global packages are managed globally at the environment level (with the -g argument)"
+        }],
+        [{
+            "name": "h3",
+            "value": "Local packages are managed in the current working directory"
+        }],
+        [{
+            "name": "h3",
+            "value": "When to choose which?"
+        }],
+        [{
+            "name": "h3",
+            "value": "Global === Command Line Tools Only"
+        }, {
+            "name": "notes",
+            "value": [
+                "Single Version",
+                "Cannot be required",
+                "",
+                "Philisophy: To allow each project to define their own required version of modules separately"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Some NPM Goodies:"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "npm install <name>"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "npm update <name>"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "npm prune"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "npm ls"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "5"
+                },
+                "value": "npm search"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "npm prune (update dependencies from package.json and remove unused ones)"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "NPM is well known for its sub-dependencies handling"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "├── request@2.12.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>└─┬ some-other-library@1.2.3<br>└── request@1.9.9&nbsp;&nbsp;&nbsp;&nbsp;"
+        }, {
+            "name": "notes",
+            "value": [
+                "if my package depends on request version 2 and some-other-library, but some-other-library depends on request version 1, this will be the dependency graph"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "COOL!!!"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "But peer dependencies are even cooler!!!"
+        }, {
+            "name": "notes",
+            "value": [
+                "Peer Dependencies is for dealing with plugins which depends on a “host” package version, in this case, NPM will warn when the peer-dependencies are invalid"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2862777/01ef0512-d1fa-11e3-856f-c354c23f8a5b.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 386px; height: 340px; z-index: 4; left: 310px; top: 317px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 544px; height: 95px; z-index: 4; left: 148px; top: 114px;"
+            },
+            "value": "External/Third Party Modules"
+        }],
+        [{
+            "name": "blockquate",
+            "attributes": {
+                "style": "position: absolute; width: 966px; height: 241px; z-index: 4; left: -4px; top: 111px; max-height: none; max-width: none;"
+            },
+            "value": "\"And then God said: 'npm install water -g'<br>and<br>Noah was all '202 Accepted'\"<br>- Maxwell Ogden"
+        }, {
+            "name": "div",
+            "attributes": {
+                "style": "position: absolute; width: 563.6382623224729px; height: 274px; z-index: 4; left: 413px; top: 280px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2862949/ebcdad44-d1fc-11e3-8059-7c34378cef3b.jpg",
+                    "style": "height: 385px; width: 293px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "h3",
+            "value": "Node's most valuable feature is the friendly and colorful <a href=\"http://nodejs.org/community/\">community</a> of developers"
+        }, {
+            "name": "notes",
+            "value": [
+                "Node community is very active",
+                "",
+                "Many modules are published to the NPM repository every day",
+                "",
+                "The innovation in the node modules published to npm has been core to the success and growth of the node.js platform and ecosystem.",
+                "In fact, the key to growth has been innovation through modularity."
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "In fact, NPM is one of the most active <a href=\"http://modulecounts.com/\">repository</a>"
+        }],
+        [{
+            "name": "h3",
+            "value": "So how we search for External Modules?"
+        }, {
+            "name": "notes",
+            "value": [
+                "So When we need to develop a generic functionality, we should first search for an existing external module",
+                "",
+                "Search via:",
+                "NPM CLI",
+                "NPM Website",
+                "",
+                "Now lets see some more cool things we can do with External Modules and Node require",
+                "In REPL:",
+                "require.extentions"
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2863199/390b770e-d201-11e3-844b-b6eb4a41cd1f.jpg",
+                "style": "height: 485px; width: 593px; max-height: none; max-width: none;"
+            }
+        }],
+        [{
+            "name": "h3",
+            "value": "BUT how does npm understands and resolves the module dependencies?"
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2863303/a16b035e-d202-11e3-8540-92113982b892.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 386px; height: 340px; z-index: 4; left: 310px; top: 317px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 544px; height: 95px; z-index: 4; left: 198px; top: 194px;"
+            },
+            "value": "Meet package.json"
+        }, {
+            "name": "notes",
+            "value": [
+                "Each Node module has a package.json file to describe its meta data.",
+                "This helps us to better understand the details of each module, and helps npm manage it",
+                "This file includes information about the name, the author & contributors, the version, the repository, the license etc.",
+                "It also contains the modules dependencies"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "Lets Create our first package.json"
+        }, {
+            "name": "notes",
+            "value": [
+                "To create pckage.json",
+                "npm init",
+                "",
+                "Lets look at some of the important attributes of the package.json file",
+                "name - unique package name",
+                "version - the current version of this package",
+                "author",
+                "contributors",
+                "main - the entry point of our module",
+                "dependencies - the dependencies of the module",
+                "devDependencies - the dependencies which are needed for development, out testing framework will be stated here for example",
+                "optionalDependencies - packages you want to use but can live without",
+                "repository",
+                "keywords",
+                "license",
+                "scripts - map with entry points of the package for npm to use, for mapping of npm commands to script commands",
+                "peerDependencies - the “host” packages your package depends upon",
+                "engines - versions of node and npm that your module works with"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "package.json includes many valuable configuration <a href=\"http://package.json.nodejitsu.com/\">attributes</a>"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 558px; max-height: none; max-width: none; left: -10px; top: 130px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.15.package.json.js",
+                    "class": "fragment",
+                    "data-fragment-index": "0",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets look at some of the important attributes of the package.json file",
+                "name - unique package name",
+                "version - the current version of this package",
+                "author",
+                "contributors",
+                "main - the entry point of our module",
+                "dependencies - the dependencies of the module",
+                "devDependencies - the dependencies which are needed for development, out testing framework will be stated here for example",
+                "optionalDependencies - packages you want to use but can live without",
+                "repository",
+                "keywords",
+                "license",
+                "scripts - map with entry points of the package for npm to use, for mapping of npm commands to script commands",
+                "peerDependencies - the “host” packages your package depends upon",
+                "engines - versions of node and npm that your module works with"
+            ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone https://github.com/itkoren/Lets-Node-ex-3.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-3"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "h3",
+            "value": "A good workflow for developing both an npm module and a project"
+        }, {
+            "name": "notes",
+            "value": [
+                "cd mutils",
+                "sudo npm link",
+                "cd ../module",
+                "sudo npm link mutils",
+                "cd /usr/local/lib/node_modules",
+                "ls",
+                "cd ../module",
+                "npm install",
+                "node main.js",
+                "cd ../mutils",
+                "add obj.merged = true;",
+                "cd ../module",
+                "npm install",
+                "node main.js",
+                "sudo npm unlink mutils",
+                "cd ../mutils",
+                "sudo npm unlink",
+                "cd /usr/local/lib/node_modules",
+                "ls",
+                "sudo npm uninstall mutils -g",
+                "ls"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "Now what about local changes and server crashes"
+        }],
+        [{
+            "name": "h3",
+            "value": "Wouldn't it be nice to have a kind of NodeReload"
+        }],
+        [{
+            "name": "h3",
+            "value": "Meet Node Supervisor"
+        }, {
+            "name": "notes",
+            "value": [
+                "Node Supervisor will restart your app every time a file is changed in the folder it is watching",
+                "A must-have module for any development environment",
+                "Node Supervisor should be installed as a global module so that you can use one installation for all your projects"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2899725/cf257f42-d5bb-11e3-9bcf-eb4870ada731.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 686px; height: 340px; z-index: 4; left: 40px; top: 317px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 544px; height: 95px; z-index: 4; left: 198px; top: 194px;"
+            },
+            "value": "Simple Data Serving"
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets start by creating a simple http server",
+                "",
+                "The function passed to createServer() is an optional request event handler that is invoked each time a new HTTP request is received",
+                "",
+                "The request object contains the headers, the method, the url and the version",
+                "",
+                "console.log(request.headers);",
+                "var requestLine = request.method + \" \" + request.url + \" HTTP/\" + request.httpVersion;",
+                "console.log(requestLine);",
+                "",
+                "The response object is a writable stream which holds the responseCode",
+                "We can write to the response stream using res.writeHead, res.write or res.end",
+                "",
+                "var html = \"<!doctype html>\\",
+                "         <html><head><title>Hello world</title></head>\\",
+                "         <body><h1>Hello, world!</h1></body></html>\";",
+                "res.writeHead(200, {",
+                "   // set the type of content we're returning",
+                "   \"Content-Type\": \"text/html\",",
+                "   // set the length of our content",
+                "   \"Content-Length\": html.length",
+                "});",
+                "// end the response, sending it and returning our HTML",
+                "res.end(html);",
+                "",
+                "In many cases we would like to serve content from static files - lets see"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2901520/7a5fb96c-d5d6-11e3-9a07-aecf447a5051.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 346px; height: 310px; z-index: 4; left: 310px; top: 317px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Async & Long Running Operations"
+        }, {
+            "name": "notes",
+            "value": [
+                "So when we use Node, we should always keep our I/O operations asynchronous",
+                "",
+                "As we already seen, most of the Node API’s are asynchronous",
+                "",
+                "But what about our code?",
+                "What about long running operations?"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "Meet setImmediate"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 899px; height: 358px; max-height: none; max-width: none; left: 30px; top: 110px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.18.async.long.running.js",
+                    "class": "fragment",
+                    "data-fragment-index": "0",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see how we can use it to make our code async",
+                "",
+                "process.nextTick is mistakenly used for this as well though we should not use it"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "A \"Tick\" of the Node Event Loop:"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Event loop wakes up"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Process events and call handlers"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Process the nextTick queue"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "Return to the loop"
+            }]
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "4"
+            },
+            "value": "Recursively calling process.nextTick, will never yield to the event loop, causing I/O starvation"
+        }, {
+            "name": "notes",
+            "value": [
+                "Up to 1000 of operations (configurable as process.maxTickDepth) will all happen in a row before any I/O is allowed to interject.",
+                "Thus misusing nextTick can starve the system of I/O and cause performance degradation",
+                "",
+                "setImmediate happens on the NEXT tick.",
+                "process.nextTick happens on the SAME tick (usually, with caveat about maxTickDepth)."
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "We'll use setImmediate for:"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Long running loops (Eteration)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Keeping callbacks truly asynchronous"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "deferring execution of methods"
+            }]
+        }],
+        [{
+            "name": "h3",
+            "value": "check \"webworker-threads\", \"threads_a_gogo\" or child_process forking for more intensive processing"
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone https://github.com/itkoren/Lets-Node-ex-4.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-4"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2939441/7dfd53da-d947-11e3-8cfe-0fc1f70cb999.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 346px; height: 310px; z-index: 4; left: 310px; top: 317px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Streams & Pipe"
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "Speed Difference - Limiting Factor"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Why Wait?"
+        }, {
+            "name": "notes",
+            "value": [
+                "Node is based on evented I/O",
+                "When trying to solve a problem that is I/O bound, the limiting factor is reading/writing to relatively slow interfaces",
+                "In many cases, there will be a speed difference between two different interfaces",
+                "Also, in many cases, there is no real need to read the entire contents in order to start writing it",
+                "",
+                "Lets go back to our fileAsync.js",
+                "While this code works, it's a little bulky and buffers up the entire ipsum.txt file into memory for every request before writing the result back to clients",
+                "If ipsum.txt is very large, the program could start eating a lot of memory as it serves lots of users concurrently, particularly for users on slow connections",
+                "Lucky enough Node has a built in abstraction as a solution for this use case - Streams"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "Stream instances are basically just like Unix pipes"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "They can be readable, writable or both"
+        }],
+        [{
+            "name": "h2",
+            "value": "Readable Streams"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "data source which emits \"data\" events for each \"chunk\" of data it gets and emits \"end\" when they are all finished"
+        }, {
+            "name": "notes",
+            "value": [
+                "Readable streams can also be paused and resumed",
+                ""
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 940px; height: 706px; max-height: none; max-width: none; left: 4px; top: 4px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.19.streams.pipe.readable.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "Writable Streams"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "A target for data which implements \"write\" & \"end\""
+        }, {
+            "name": "notes",
+            "value": [
+                "write method returns a boolean flag which indicates if writing can continue or should be paused until drain is emitted"
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 940px; height: 706px; max-height: none; max-width: none; left: 4px; top: 4px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.19.streams.pipe.writable.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }],
+        [{
+            "name": "h3",
+            "value": "You can pipe a readable stream to a writable stream by doing:"
+        }, {
+            "name": "code",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "readableStream.pipe(writableStream);"
+        }],
+        [{
+            "name": "h3",
+            "value": "John Resig (jQuery) created a <a href=\"http://nodestreams.com/\">playground</a> for developers to learn the behavior of Node Streams"
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see exampe for upload progress using streams",
+                "",
+                "var http;",
+                "var fs;",
+                "",
+                "var server;",
+                "var newFile = fs.createWriteStream(\"uploaded.jpeg\");",
+                "var uploadedBytes = 0;",
+                "var fileBytes = req.headers[\"content-length\"];",
+                "",
+                "res.writeHead(200, {\"content-type\": \"text/plain\"});",
+                "",
+                "req.pipe(newFile);",
+                "",
+                "req.on(\"readable\", function() {",
+                "var chunk;",
+                "while (null !== (chunk = req.read())) {",
+                "    console.log(\"got %d bytes of data\", chunk.length);",
+                "",
+                "    uploadedBytes += chunk.length;",
+                "    var progress = (uploadedBytes / fileBytes) * 100;",
+                "    res.write(\"progress: \" + parseInt(progress, 10) + \"%\\n\");",
+                "}",
+                "});",
+                "",
+                "req.on(\"data\", function(chunk) {",
+                "  if (chunk) {",
+                "    console.log(\"Got Data Event: \", chunk);",
+                "    res.write(\"Got Data Event\\n\");",
+                "  }",
+                "});",
+                "",
+                "req.on(\"end\", function() {",
+                "  res.end(\"Upload Complete!\\n\");",
+                "});"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2950427/b0c29b26-da1a-11e3-9de1-3ac8bda9f731.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 316px; height: 400px; z-index: 4; left: 340px; top: 267px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Buffers"
+        }, {
+            "name": "notes",
+            "value": [
+                "There are two main things that make working with data in Node a pain:",
+                "Large Strings (> ~64K) and Binary data",
+                "",
+                "Lets have a look at the standard 'hello world' concurrency benchmark"
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2962127/98130fe4-dacd-11e3-95e9-6ad5263b4dff.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 926px; height: 610px; z-index: 4; left: 4px; top: 10px;"
+            }
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2962141/cea90e6e-dacd-11e3-85a0-779e04942e93.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 926px; height: 610px; z-index: 4; left: 4px; top: 10px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "We see that Node performs very well",
+                "",
+                "But when we look at serving a different response size"
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2962158/fad3648a-dacd-11e3-9688-ae3c34befbc8.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 926px; height: 610px; z-index: 4; left: 4px; top: 10px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "When size is bigger and concurrency is 300",
+                ""
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2962171/1601c03a-dace-11e3-9f95-335b6a19f34f.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 926px; height: 610px; z-index: 4; left: 4px; top: 10px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "We see that Node suck",
+                ""
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "V8 Memory Management"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Generational GC"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Two Generations - Young and Old"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Overtime young values are promoted to old generation"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2962774/ef106caa-dad3-11e3-8281-65cf535763cc.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "2",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 4; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "Overtime young values are promoted to old generation (after surviving few garbage collection cycles)"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "V8 Memory Management (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Young === Fast & Frequent (stops the application processing)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Old === Slower & Less Frequent (does not stop the application processing)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "The performance “pain” mostly exists at the young generation management"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "Cost of collection in the young generation is proportional to the number of live objects"
+            }
+
+            ]
+        }, {
+            "name": "notes",
+            "value": [
+                "Allocation & collection within the young generation is fast and frequent (stops the application processing)",
+                "Allocation & collection within the old generation is slower and less frequent (does not stop the application)"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Young Generation Management"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "The young generation is equally splitted into two semi spaces equally sized: \"To space\" & \"From space\""
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963049/df8daf4c-dad6-11e3-89d5-ace5f36c8a6c.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 4; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "Values are allocated in the \"To space\"",
+                "The \"From space\" is only used during GC"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Young Generation Management (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Values are allocated only in the \"To space\""
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963225/a30dfc6e-dad8-11e3-99d8-5935f1c8bb37.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 4; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963291/67c5f746-dad9-11e3-8a8d-bbaefc77b3ba.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "2",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 5; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963340/f26802cc-dad9-11e3-925d-beee2069d51a.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "3",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 6; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963387/7897ffa0-dada-11e3-93a9-08077deaff35.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "4",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 7; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963416/c40c1192-dada-11e3-8490-9218309b5456.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "5",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 8; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "Values are allocated in the \"To space\"",
+                "The \"From space\" is only used during GC"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Young Generation Management (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "When the \"To space\" is full, \"To space\" and \"From space\" are swapped"
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963387/7897ffa0-dada-11e3-93a9-08077deaff35.png",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 4; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963490/e9cfe07e-dadb-11e3-89b4-fb6a4be85177.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 5; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "When the To space is full, \"To space\" and \"From space\" are swapped",
+                "",
+                "Page Paused & Collection is triggered"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Young Generation Management (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "Page Paused & Collection is triggered"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Live values are found"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "and are copied to the \"To space\" again"
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963490/e9cfe07e-dadb-11e3-89b4-fb6a4be85177.png",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 4; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963565/b75f2b26-dadc-11e3-9a74-6e8f4131482f.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 5; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963607/4faf21ba-dadd-11e3-8451-ca16db309f4e.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 6; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "Page Paused & Collection is triggered",
+                "",
+                "Live values are found and are copied to the \"To space\" again (this is where most of the time goes)"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Young Generation Management (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "The \"From space\" is recycled and the allocation can continue at the \"To space\""
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2963619/658e3bba-dadd-11e3-9f70-4160101a3911.png",
+                "style": "position: absolute; max-height: none; max-width: none; width: 626px; height: 260px; z-index: 7; left: 160px; top: 300px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "The From space is recycled and the allocation can continue at the \"To space\"",
+                "",
+                "The process of copying the live values from the \"From space\" to the \"To space\" is what influences the performance of Node deeply"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "The swaps does not let node get a pointer to the raw data and hurts performance"
+        }],
+        [{
+            "name": "h3",
+            "value": "Node Buffers deals with this problem + Allow us to work with binary data"
+        }, {
+            "name": "notes",
+            "value": [
+                "Buffer data type - this is also more efficient than typed array - obviously"
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2964277/9b4dac5c-dae4-11e3-981e-ef90b29f8e69.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 926px; height: 610px; z-index: 4; left: 4px; top: 10px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "Using Buffers change the results"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "Buffer memory is managed by NodeJS outside of V8"
+        }, {
+            "name": "p",
+            "value": "Each buffer corresponds to some raw memory allocated outside V8"
+        }, {
+            "name": "notes",
+            "value": [
+                "This can sometimes lead to some weired mistakes when trying to measure memory usage and find leaks",
+                "",
+                "Buffers act somewhat like arrays of integers, but aren't resizable and have a whole bunch of methods specifically for binary data"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Buffer Creation"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "Buffer can be created from:"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "A byte size definition - <code>new Buffer(4)</code>"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "An array - <code>new Buffer([1, 2, 3, 4]);</code>"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "A string: new Buffer(\"foo\", \"utf-8\");"
+            }]
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "3"
+            },
+            "value": "<code>buffer.write(\"Hello\", \"utf-8\");</code>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "3"
+            },
+            "value": "<code>buffer.write(\" world!\", 5, \"utf-8\");</code>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "3"
+            },
+            "value": "<code>buffer.toString(\"utf-8\", 0, 12);</code>"
+        }],
+        [{
+            "name": "h2",
+            "value": "NOTE:"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Buffer can not be resized"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Raw data from transport layer are stored in buffer instances"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Buffer corresponds to raw memory allocation outside the V8 javascript engine"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "The Buffer will sit in this permanent memory address without changing, which",
+                "saves CPU cycles that would be wasted making memory copies of the buffer contents",
+                "BEWARE - Buffers are sliced memory chunks of 8KB which are managed outside of V8 and can only be released when the entire chunk is unneeded",
+                "In order to retain data for longer time, it is advised to copy the data into a SlowBuffer",
+                "Lets see some code"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2970686/5e37492e-db5f-11e3-91e4-4bf8cc901eec.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 646px; height: 410px; z-index: 4; left: 190px; top: 237px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Callback Hell"
+        }, {
+            "name": "notes",
+            "value": [
+                "So our beloved Javascript uses callback functions to handle asynchronous control flow",
+                "Therefore, when we write asynchronous code using callbacks, nesting can get problematic very fast",
+                "This problem is best known as Callback Hell or Pyramid Of Doom"
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 899px; height: 388px; max-height: none; max-width: none; left: 30px; top: 110px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.21.callback.hell.template.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Callback hell can be still bearable, as long as our execution flow is linear",
+                "Asynchronous code is hellish when it becomes overly complex to manage the flow"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Callback Hell"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Bearable while execution flow is linear"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "BUT it can brunch!"
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2970946/b93438ce-db63-11e3-9b1e-c4b91de1412a.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; max-height: none; max-width: none; width: 646px; height: 410px; z-index: 4; left: 190px; top: 237px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2971011/b7bff7c0-db64-11e3-9526-cde8df088341.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; max-height: none; max-width: none; width: 646px; height: 410px; z-index: 5; left: 190px; top: 237px;"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "Callback Hell (cont'd)"
+        }, {
+            "name": "p",
+            "value": "The code will become unmanageable, and:"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Hard to know the order of the function calls"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Hard to achieve parallel execution"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Scoping becomes a real challenge"
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "How can we solve it?"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Modularity - Writing small pieces of functionality as separated modules"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Separating anonymous functions and passing references"
+            }]
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "3"
+            },
+            "value": "Good start, But it does not help with control flow - Not enough!"
+        }, {
+            "name": "notes",
+            "value": [
+                "It does not improve our control flow and branching & parallel execution are still problematic",
+                "We can try to evaluate and understand the “hell” we may suffer by asking ourselves how much refactoring pain would we suffer if doAsync2 happened before doAsync1?",
+                "Can be quite painful ha?",
+                "",
+                "So we need to add some other approaches for dealing with this situation"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Take 1 - async"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": [{
+                "name": "a",
+                "attributes": {
+                    "href": "https://github.com/caolan/async"
+                },
+                "value": "https://github.com/caolan/async"
+            }]
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "npm install async"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "2"
+            },
+            "value": "Popular and widely used"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "3"
+            },
+            "value": "provides common patterns for asynchronous code control flow together with some common functional programing paradigms"
+        }, {
+            "name": "notes",
+            "value": [
+                "async provides common patterns for asynchronous code control flow together with some common functional programing paradigms",
+                "",
+                "It can be used in the client side as well as in Node"
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 688px; max-height: none; max-width: none; left: 10px; top: 10px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.21.callback.hell.async.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "It also supports the \"map\", \"reduce\" and \"filter\" operations which are defined by functional programing paradigms",
+                "",
+                "Do you remember factorial example, lets see it with async"
+            ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone https://github.com/itkoren/Lets-Node-ex-5.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-5"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }]
+    ]
+}]
