@@ -1,0 +1,24 @@
+[{
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3019611/93104c48-df94-11e3-9036-b9d00d4cb95e.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 316px; height: 310px; z-index: 4; left: 325px; top: 337px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Benchmarking and Stress Testing"
+        }, {
+            "name": "notes",
+            "value": [
+                "There comes a time during our application development phase, that we would like to understand its limits"
+            ]
+        }]
+    ]
+}]

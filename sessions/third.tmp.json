@@ -1,0 +1,1087 @@
+[{
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2994498/4cc49794-dcce-11e3-8b37-2948448ac2ff.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 646px; height: 410px; z-index: 4; left: 190px; top: 237px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Callback Hell - Take 2"
+        }, {
+            "name": "notes",
+            "value": [
+                "So our beloved Javascript uses callback functions to handle asynchronous control flow",
+                "Therefore, when we write asynchronous code using callbacks, nesting can get problematic very fast",
+                "This problem is best known as Callback Hell or Pyramid Of Doom"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "async is not the only way to reduce callback hell and control flow"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Other available solutions are:"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "ES6 Generators"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Promises (Multiple Implementations)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "<a href=\"https://github.com/Sage/streamlinejs\">streamline</a>"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "4"
+                },
+                "value": "<a href=\"https://github.com/laverdet/node-fibers\">Fiber/Coroutine</a>"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "5"
+                },
+                "value": "++"
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "ES6 Generators"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "ES6 introduces many interesting features, two of them are:"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Generators - Represents a sequence of values"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Iterators"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Instead of returning a value, when you first call a generator function, it returns an iterator",
+                "We can look at generators as lightweight co-routines for JavaScript",
+                "They allow a function to be suspended and resumed via the \"yield\" keyword",
+                "\"yeild\" returns the control to the caller until the generator is resumed using \"next\"",
+                "Calling \"next\" on the iterator resumes the generator lets it run until the next \"yield\" or \"return\""
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.22.callback.hell.generators.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see it in action (generators.js & interview.js)",
+                "",
+                "Suspending execution, waiting for something to happen, then picking up where you left off can give us great tools for asynchronous programming and control flow",
+                "This way, we can even use try & catch for handling errors"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "Now lets use this super-power!"
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "HOW?!?!"
+        }, {
+            "name": "notes",
+            "value": [
+                "Now we can use this power for making our asynchronous code, looks as synchronous",
+                "",
+                "But we will need a way to control the generator and resume its flow on each \"yeild\"",
+                "We will need some kind of a \"thunk\" for doing so"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Thunk"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "A <a href=\"http://en.wikipedia.org/wiki/Thunk\">thunk</a> is a <a href=\"http://en.wikipedia.org/wiki/Subroutine\">subroutine</a> that is created, often automatically, to assist a call to another subroutine"
+        }, {
+            "name": "notes",
+            "value": [
+                "A \"thunk\" is a subroutine that is created, often automatically, to assist a call to another subroutine",
+                "This is implemented basically as a partially evaluated function with just the callback argument left over to be filled in",
+                "",
+                "Since Node core functionality isn’t \"thunk\"-aware, we make it so by using the external \"co\"",
+                "\"co\" takes a generator function which can be suspended at anytime using the \"yield\" keyword and manages its flow of execution by calling \"next\" upon yielding",
+                "Do you remember factorial.js - lets see it again with generators, co and thunk"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2996527/c96ae100-dcf0-11e3-87c7-d1e9ecc0ce42.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 646px; height: 410px; z-index: 4; left: 190px; top: 237px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Handling Errors"
+        }, {
+            "name": "notes",
+            "value": [
+                "As we already seen, Node runs a single process with an event loop implementing the reactor pattern",
+                "As such, by default, a single unhandled error will cause your process to crash",
+                "But Error handling when working with asynchronous code can get a little bit tricky",
+                "",
+                "Lets see some examples",
+                "show crash.js & crashServer.js"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "The Last Resort"
+        }, {
+            "name": "div",
+            "attributes": {
+                "style": "width: 989px; height: 288px; max-height: none; max-width: none; left: 10px; top: 10px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.23.handling.errors.last-resort.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }, {
+                "name": "p",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Restart your application after every uncaughtException!"
+            }, {
+                "name": "p",
+                "value": "<br>"
+            }, {
+                "name": "p",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "\"monit\", \"forever\" or \"upstart\" can be used to restart node process when it crashes"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Unfortunately, this is not a silver bullet, and should not be used for handling errors",
+                "The state of the app is not guaranteed to be consistent",
+                "It's merely for being able to report the problem, and shut down gracefully",
+                "",
+                "Restart your application after every uncaughtException!",
+                "",
+                "Do not use it as the node.js equivalent of On Error Resume Next. An unhandled exception means your application - and by extension node.js itself - is in an undefined state. Blindly resuming means anything could happen."
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "So how can we tackle the process termination problem?"
+        }],
+        [{
+            "name": "h2",
+            "value": "Domains"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Provides an elegant way to create different contexts of executions"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "This way, uncaughtExceptions can be managed on a per Domain basis"
+        }, {
+            "name": "notes",
+            "value": [
+                "This is the recommended pattern by Node",
+                "Wrap a section of code in a Domain"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Domains (cont'd)"
+        }, {
+            "name": "blockquate",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 966px; height: 241px; z-index: 4; left: -4px; top: 111px; max-height: none; max-width: none;"
+            },
+            "value": "\"Domains provide a way to handle multiple different IO operations as a single group. If any of the event emitters or callbacks registered to a domain emit an error event, or throw an error, then the domain object will be notified, rather than losing the context of the error in the process.on('uncaughtException') handler, or causing the program to exit immediately with an error code.\" - From Node Documentation"
+        }, {
+            "name": "notes",
+            "value": [
+                "This still have caveats since we still don’t know the state of the process after the exception, and we can still leak memory.",
+                "",
+                "The more found solution should be to use it together with the cluster module (which we will explore more deeply later on this course).",
+                "it is actually possible to treat each connection state individually, therefore allowing Node to operate unaffected connections until it encounter the exception",
+                "Using the Domains module together with Cluster we can have a separate process for each cluster, kill and restart just the process that encountered the exception",
+                "We should also understand, that there will be cases that a graceful shutdown is the best we can hope for so the best way to deal with would be to restart the process",
+                "",
+                "monit, forever or upstart can be used to restart node process when it crashes",
+                "",
+                "Lets see our crashServer.js with Domains support - show domainServer.js"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "But there is another thing we must be aware of!"
+        }],
+        [{
+            "name": "h3",
+            "value": "EventEmitter/s"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "When using EventEmitter, we should respect that the proper event for raising errors, is the \"error\" event"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "An \"error\" event which have no listener/handler assigned, will cause an exception to be thrown"
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see an example - show crashServer2.js"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "For development only, we can also have long stack traces with longjohn"
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see an example - show crashServer3.js"
+            ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone https://github.com/itkoren/Lets-Node-ex-6.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-6"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3004683/ee67c2aa-ddb0-11e3-8abf-c63f989fdb77.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 616px; height: 410px; z-index: 4; left: 205px; top: 237px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Express"
+        }, {
+            "name": "notes",
+            "value": [
+                "Within five months of Node's release, in June 2009, T.J. Holowaychuk, released an open source project named Express to make web development a little easier in Node",
+                "",
+                "While working with Node, many problems we tackle, can be generically solved",
+                "The basic HTTP server handling we get from the core HTTP module of Node is too basic and there are many additional usual problem which can be abstracted.",
+                "",
+                "So most real-world applications, perform a series of common tasks that you don’t want to re-implement",
+                "This is what Express is for",
+                "",
+                "Express takes Node from a barebones application and turns it into something that behaves more like the web servers we're all used to working with"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "Express is a utility belt for creating web applications with Node"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "It is to Node what Sinatra or Rails is to Ruby and Grails is to Groovy"
+        }, {
+            "name": "notes",
+            "value": [
+                "Express was inspired by Ruby's Sinatra and built on top of Node's web server API",
+                "",
+                "Express comes with many command line options and therefore while express is installed localy, it is better to install it's generators globally",
+                "Lets install it globally",
+                "",
+                "sudo npm install -g express-generator",
+                "",
+                "Now lets see what it has to offer",
+                "express -h",
+                "",
+                "Now lets create an express app",
+                "express express-tour && cd express-tour",
+                "npm install",
+                "npm start"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Express (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Express defines three core components:"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "application"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "request"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "response"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Express is a minimalistic and robust framework that gives you all you need in order to build decent web applications"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Express (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Out of the box, Express provides features such as:"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Command Line Interface (CLI)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Application Settings"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "Routing"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "4"
+                },
+                "value": "Registering Middleware (via Connect)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "5"
+                },
+                "value": "Templating/View Rendering"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "6"
+                },
+                "value": "Dynamic CSS Support (via less | stylus)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "7"
+                },
+                "value": "Endless Additional Community Plugins"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Express is a minimalistic and robust framework that gives you all you need in order to build decent web applications",
+                "",
+                "Lets see what had been created in this express tour"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Application Settings"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Express allows us to access and manipulate application settings by using \"get\", \"set\", \"enable\" and \"disable\" methods"
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see application settings example"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Routes"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "A built in functionality in express is the Routes"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "When a route is defined, Express will match that route"
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 700px; max-height: none; max-width: none; left: 10px; top: 4px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.24.2.express.routes.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see some examples"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3004683/ee67c2aa-ddb0-11e3-8abf-c63f989fdb77.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 616px; height: 410px; z-index: 4; left: 205px; top: 237px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Connect & Middleware"
+        }, {
+            "name": "notes",
+            "value": [
+                "In June 2010, Sencha, under its Sencha Labs, started an open source project named Connect, to solve the modularity and extensibility issue in the Node web server API",
+                "The project was inspired by Ruby's Rack web server interface",
+                "Tim Caswell, a Sencha employee, and T.J. Holowaychuk, were roped in to lead the project",
+                "Like Express, Connect was also built on top of Node's web server API, and came with a middleware system, which allowed small re-usable programs to be plugged onto it to handle HTTP-specific functionalities",
+                "And so, there were two different web development frameworks for Node: Express and Connect",
+                "Confusing!?!?",
+                "especially with Holowaychuk working on both of them",
+                "",
+                "So, in July 2010, Holowaychuk decided to re-architect Express to run on top of Connect, effectively merging Connect with Express to create a new incarnation of Express",
+                "",
+                "On April 2014, Connect as a dependency is removed and with it the base middleware - today, Connect & Express can use the same middleware but they are different development frameworks",
+                "",
+                "Anyways, the concept of middlewares which is one of it's bigger strengthes, are taken completely from Connect"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Middleware"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "JavaScript function to handle HTTP requests to an Express/Connect server"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "An Express/Connect server can have a stack of middleware (plugins) associated with it"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "2"
+            },
+            "value": "Each middleware can respond or pass the request off to the next layer in the stack"
+        }, {
+            "name": "notes",
+            "value": [
+                "A middleware is a JavaScript function to handle HTTP requests to an Express/Connect server",
+                "It can manipulate the request and the response objects or perform an isolated action, or terminate the request flow by sending a response to the client, or pass on the control to the next middleware",
+                "An Express/Connect server can have a stack of middleware associated with it",
+                "When a request comes in, each middleware can decide to respond by calling methods on the response object, and/or pass the request off to the next layer in the stack"
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3004919/257f6c02-ddc5-11e3-9810-280487858ad3.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 746px; height: 610px; z-index: 4; left: 100px; top: 10px;"
+            }
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 550px; max-height: none; max-width: none; left: 40px; top: 4px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.25.connect.middleware.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see some examples",
+                "",
+                "Come back to the generated express tour and go over it again",
+                "",
+                "Talk a little about jade and templeting"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3018810/5565da0c-df8a-11e3-98c2-7dc75ff229d2.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 416px; height: 410px; z-index: 4; left: 305px; top: 237px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Serving Data"
+        }, {
+            "name": "notes",
+            "value": [
+                "Express can be used to serve many types of data",
+                "We can use it for RESTful API serving JSON, HTML, text etc."
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 919px; height: 300px; max-height: none; max-width: none; left: 20px; top: 4px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.26.serving.data.types.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 919px; height: 200px; max-height: none; max-width: none; left: 20px; top: 280px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.26.serving.data.templates.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 919px; height: 300px; max-height: none; max-width: none; left: 20px; top: 480px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.26.serving.data.jsonp.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "When we serve HTML content, it is common to use theming or templating systems",
+                "Express supports this concepts and can work with different templating engines",
+                "By default Express uses Jade for templating",
+                "JSONP is also supported out of the box by expres using response.jsonp API",
+                "",
+                "Content negotiation",
+                "A mechanism of specifying the data types a user agent is capable of consuming and prefers, and the server fulfilling the request when it can, and informing when it cannot",
+                "Express supports content negotiation using the res.format() method",
+                "",
+                "Redirecting the request to a different URL, is possible in Express using the res.redirect() method",
+                "",
+                "A nice builder for express application can be found here:",
+                "http://enome.github.io/application-generator/",
+                "Although it still supports version 3 only"
+            ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone https://github.com/itkoren/Lets-Node-ex-7.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-7"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3037239/bef95b7a-e0ba-11e3-9639-80525696b0a0.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 466px; height: 360px; z-index: 4; left: 285px; top: 237px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Unit Testing"
+        }, {
+            "name": "notes",
+            "value": [
+                "Testing allows you the peace of mind to know that the code you wrote is actually performing the operations that it was intended to do",
+                "",
+                "A lot had been said about TDD and the value it gives development process - I am not going to get into this debate I'll just say that",
+                "Automated testing is one of the most important practices that improve code quality and I am sure anyone can agree with this statement",
+                "",
+                "It is important to remember though that the real important reason for writting tests is confidence",
+                "We write tests to inspire confidence that everything is working as expected",
+                "Remembering this, we must ensure that our tests are written in a clear and understandable manner",
+                "",
+                "Anyways, In order to create any automated test running, we first need a way to define our tests and run them"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Testing Tools"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Four types of tools are needed for implementing successfull testing flow of Node applications:"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "A Testing Framework (Mocha, Jasmine, Expresso, NodeUnit, Vows, Intern, ++)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "An Assertion/Expectation Library (Chai, Assert, Node.js assert, ++)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "Stubs Library (Sinon)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "4"
+                },
+                "value": "Module Control (Mockery, Rewire)"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "An assertion testing module is something that allows us to easily compare results to what we expect",
+                "",
+                "Unfortunately, assertions alone will only get us so far. When testing more complex functions, we’ll need a way to influence behavior and test code under explicit conditions",
+                "",
+                "Because most calls to require happen privately, we have no way to stub, assert, or otherwise access external modules. To really control our tests, we’ll need the option to override require to return modules under our control"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "For Node, \"mocha\" is a strong standard (watch \"Jest\" though)"
+        }, {
+            "name": "notes",
+            "value": [
+                "\"mocha\" is the standard for Node, It is extesible and flexible, though I would watch the new \"Jest\" by facebook which is based on Jasmine"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Mocha"
+        }, {
+            "name": "div",
+            "attributes": {
+                "style": "width: 989px; height: 588px; max-height: none; max-width: none; left: 10px; top: 10px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.28.unit.testing.mocha.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "BTW, this \"mocha\" had also been created by T.J. Holowaychuk",
+                "",
+                "First lets install \"mocha\" and \"chai\" - I like to do it locally",
+                "",
+                "On our app we'll create a \"tests\" dir under the root, and a file module for each one of our modules",
+                "Now lets see numericValidatorTest.js and factorialTest.js",
+                "",
+                "install \"sinon\" and see numericValidatorTest2.js",
+                "",
+                "install \"mockery\" and see fileAsyncTest.js"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "But what about testing the API itself?"
+        }, {
+            "name": "p",
+            "value": "Express based API's can be easily tested using \"supertest\""
+        }],
+        [{
+            "name": "h2",
+            "value": "Supertest"
+        }, {
+            "name": "div",
+            "attributes": {
+                "style": "width: 989px; height: 588px; max-height: none; max-width: none; left: 10px; top: 10px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.28.unit.testing.supertest.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "BTW, this \"supertest\" had also been created by T.J. Holowaychuk",
+                "",
+                "lets install \"supertest\" and see expressTest.js",
+                "",
+                "Show package.json devDependencies"
+            ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone https://github.com/itkoren/Lets-Node-ex-8.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-8"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }]
+    ]
+}]
