@@ -60,7 +60,7 @@
             "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3096606/ff4a3710-e5d5-11e3-8c94-88a130221d57.png",
                 "class": "absolute-element",
-                "style": "position: absolute; max-height: none; max-width: none; width: 616px; height: 410px; z-index: 4; left: 165px; top: 137px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 616px; height: 410px; z-index: 4; left: 185px; top: 137px;"
             }
         }, {
             "name": "h2",
