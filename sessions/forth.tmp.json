@@ -5,7 +5,7 @@
             "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3085138/6ce5442c-e509-11e3-9fa1-312bbaf05da4.png",
                 "class": "absolute-element",
-                "style": "position: absolute; max-height: none; max-width: none; width: 316px; height: 310px; z-index: 4; left: 325px; top: 337px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 510px; z-index: 4; left: 225px; top: 237px;"
             }
         }, {
             "name": "h2",
@@ -53,7 +53,83 @@
             ]
         }]
     ]
- },{
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3096606/ff4a3710-e5d5-11e3-8c94-88a130221d57.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 510px; z-index: 4; left: 25px; top: 37px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "LivePerson Modules"
+        }, {
+            "name": "notes",
+            "value": [
+                "Formally, We started working with Node in LivePerson, almost a year ago"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "NodeJS in LivePerson"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "0"
+                    },
+                    "value" : "Two Server Applications in GA (Loggos & Batchelor)"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "1"
+                    },
+                    "value" : "7 Internal Modules"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "2"
+                    },
+                    "value" : "2 More Projects in Work (Collaboration & Labs)"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "3"
+                    },
+                    "value" : "Many More Expected Node Projects in Queue"
+                }
+            ]
+        }, {
+            "name": "notes",
+            "value": [
+                "Available Modules: lp_js_gate_keeper, lp_js_http_status, lp_js_localcache, lp_js_logger, lp_js_service_status, lp_js_security_utils, lp_js_service_directory",
+                "",
+                "Go to Reggie and talk a little about existing modules",
+                "We've Created the Integration and Services LivePerson Uses Like Cassandra, Service Directory, etc. Rapidly, without the need to use the company java implementations",
+                "",
+                "I would like to ask Efim to talk a little about LivePerson Modules and our vision"
+            ]
+        }]
+    ]
+}, {
     "steps": [
         [{
             "name": "img",
