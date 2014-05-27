@@ -3,6 +3,61 @@
         [{
             "name": "img",
             "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3085138/6ce5442c-e509-11e3-9fa1-312bbaf05da4.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 316px; height: 310px; z-index: 4; left: 325px; top: 337px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+            },
+            "value": "Reggie"
+        }, {
+            "name": "notes",
+            "value": [
+                "For working with internal modules, LivePerson is using Reggie"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "<a href=\"https://github.com/mbrevoort/node-reggie\">Reggie</a> is a NodeJS server which is a lightweight alternative to a full blown npm registry"
+        }, {
+            "name": "notes",
+            "value": [
+                "As for today, there is no simple out of the box solution for managing a private NPM repository",
+                "Doing it, still requires managing a full replication of the public repository",
+                "There is a proxy solution (Kappa) from PayPal that we still need to check, but currently we are using Reggie which is a very simple solution",
+                "Lets see what we have inside - via postman",
+                ""
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.29.reggie.sh",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }]
+    ]
+ },{
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3019611/93104c48-df94-11e3-9036-b9d00d4cb95e.png",
                 "class": "absolute-element",
                 "style": "position: absolute; max-height: none; max-width: none; width: 316px; height: 310px; z-index: 4; left: 325px; top: 337px;"
