@@ -2037,7 +2037,7 @@
                 "attributes": {
                     "style": "width: 900px; position: absolute; top: 0; left: 0px;"
                 },
-                "value": "git clone https://github.com/itkoren/Lets-Node-ex-1.git"
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-1.git"
             }]
         }, {
             "name": "img",
@@ -2729,7 +2729,7 @@
                 "attributes": {
                     "style": "width: 900px; position: absolute; top: 0; left: 0px;"
                 },
-                "value": "git clone https://github.com/itkoren/Lets-Node-ex-2.git"
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-2.git"
             }]
         }, {
             "name": "img",

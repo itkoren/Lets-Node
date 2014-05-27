@@ -409,7 +409,7 @@
                 "attributes": {
                     "style": "width: 900px; position: absolute; top: 0; left: 0px;"
                 },
-                "value": "git clone https://github.com/itkoren/Lets-Node-ex-3.git"
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-3.git"
             }]
         }, {
             "name": "img",
@@ -699,7 +699,7 @@
                 "attributes": {
                     "style": "width: 900px; position: absolute; top: 0; left: 0px;"
                 },
-                "value": "git clone https://github.com/itkoren/Lets-Node-ex-4.git"
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-4.git"
             }]
         }, {
             "name": "img",
@@ -1648,7 +1648,7 @@
                 "attributes": {
                     "style": "width: 900px; position: absolute; top: 0; left: 0px;"
                 },
-                "value": "git clone https://github.com/itkoren/Lets-Node-ex-5.git"
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-5.git"
             }]
         }, {
             "name": "img",
