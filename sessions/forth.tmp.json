@@ -11,7 +11,7 @@
             "name": "h2",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 64px;"
             },
             "value": "Reggie"
         }, {
@@ -60,7 +60,7 @@
             "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3096606/ff4a3710-e5d5-11e3-8c94-88a130221d57.png",
                 "class": "absolute-element",
-                "style": "position: absolute; max-height: none; max-width: none; width: 616px; height: 410px; z-index: 4; left: 125px; top: 87px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 616px; height: 410px; z-index: 4; left: 105px; top: 107px;"
             }
         }, {
             "name": "h2",
