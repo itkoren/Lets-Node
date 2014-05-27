@@ -1,9 +1,9 @@
 [submodule "prerequisites"]
 	path = prerequisites
-	url = git@github.com:itkoren/Lets-Node-prerequisites.git
+	url = https://github.com/itkoren/Lets-Node-prerequisites.git
 [submodule "examples"]
 	path = examples
-	url = git@github.com:itkoren/Lets-Node-examples.git
+	url = https://github.com/itkoren/Lets-Node-examples.git
 [submodule "exercises"]
 	path = exercises
-	url = git@github.com:itkoren/Lets-Node-exercises.git
+	url = https://github.com/itkoren/Lets-Node-exercises.git
