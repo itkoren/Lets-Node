@@ -150,6 +150,143 @@
             "value": [
                 "There comes a time during our application development phase, that we would like to understand its limits"
             ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Importance of Stress Testing"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "0"
+                    },
+                    "value" : "Understanding the maximum load our application can handle"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "1"
+                    },
+                    "value" : "Learning where our Node program spends its time"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "2"
+                    },
+                    "value" : "Exposing memory leaks and bottlenecks"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "3"
+                    },
+                    "value" : "Making sure our application is dealing with basic load without \"melting\""
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "4"
+                    },
+                    "value" : "++"
+                }, {
+                    "name": "notes",
+                    "value": [
+                        "Lets talk about creating load"
+                    ]
+                }
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Important to Remember"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 700px; max-height: none; max-width: none; left: 10px; top: 4px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.31.profiling.and.stress.testing.sh",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Important to remember when testing locally"
+            ]
+        }],
+        [{
+            "name":"p",
+            "value":"Use <a href\"https://github.com/alexfernandez/loadtest\">loadtest</a> or tools like <a href=\"https://github.com/11main/nodeload\">nodeload</a> for local stress testing"
+        }, {
+            "name": "notes",
+            "value": [
+                "Before we'll deal with distributed stress testing, Lets start with local tests",
+                "",
+                "Lets see the loadtest module",
+                "",
+                "But this is not enough for understanding the real numbers our application supports",
+                "For that we will need to conduct distributed stress testing"
+            ]
+        }],
+        [{
+            "name":"h2",
+            "value":"Distributed Stress Testing Tools"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "0"
+                    },
+                    "value" : "<a href=\"https://github.com/jugglinmike/beeswithmachineguns\">Bees with Machine Guns</a>"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "1"
+                    },
+                    "value" : "<a href=\"https://www.blitz.io/\">Blitz.IO</a>"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "2"
+                    },
+                    "value" : "<a href=\"http://www.redline13.com/\">RedLine13</a>"
+                }
+            ]
+        }, {
+            "name": "notes",
+            "value": [
+                "Before we'll deal with distributed stress testing, Lets start with local tests",
+                "",
+                "Lets see the loadtest module",
+                "",
+                "But this is not enough for understanding the real numbers our application supports",
+                "For that we will need to conduct distributed stress testing"
+            ]
         }]
     ]
 }]
