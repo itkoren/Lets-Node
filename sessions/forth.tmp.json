@@ -289,4 +289,34 @@
             ]
         }]
     ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3110798/8461339e-e6a9-11e3-9b2c-8b28a0fc2c9e.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 4; left: 225px; top: 137px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 64px;"
+            },
+            "value": "Deployment & RPM"
+        }, {
+            "name": "notes",
+            "value": [
+                "We are almost ready for deploying our application",
+                "",
+                "In order to do so, we will need to create an RPM for our project",
+                "Usually, we are using a defined build process which includes code validation (jshint), running tests and producing the RPM",
+                "This process can also deploy the RPM to a selected environments and run automation tests on it",
+                "This is created using Grunt and Maven as a container while the RPM is created using puppet",
+                "",
+                "I would like to invite Omer H. to talk about the build process and deployment"
+            ]
+        }]
+    ]
 }]
