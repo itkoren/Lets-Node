@@ -326,7 +326,7 @@
             "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3122566/a49b9cc0-e768-11e3-93a6-72c6049953fb.png",
                 "class": "absolute-element",
-                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 4; left: 225px; top: 137px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 4; left: 225px; top: 197px;"
             }
         }, {
             "name": "h2",
