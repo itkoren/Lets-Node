@@ -319,4 +319,136 @@
             ]
         }]
     ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3122566/a49b9cc0-e768-11e3-93a6-72c6049953fb.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 4; left: 225px; top: 137px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 64px;"
+            },
+            "value": "Realtime Streaming with WebSockets"
+        }, {
+            "name": "notes",
+            "value": [
+                "Up until now we learned what is Node and how we can use its advantages",
+                "We saw how we can create a fast Node HTTP Web server which handles large amount of requests but everything was based on HTTP",
+                "",
+                "One of the core technologies powering the web is HTTP",
+                "Unfortunately, HTTP current version 1.1, was last updated around 1999 and in fact hardly changed since roughly 1996",
+                "",
+                "Meanwhile the web had changed quite a bit with dynamic content, pages with many resources, single page applications and much more",
+                "",
+                "For many years, HTTP and real-time applications didn’t really go together very well"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "What is wrong with HTTP for real-time applications?"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "0"
+                    },
+                    "value" : "Designed around a request-response model (message based protocol)"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "1"
+                    },
+                    "value" : "All HTTP communications are initiated by the client"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "2"
+                    },
+                    "value" : "Request must wait for response (connection is not fully utilized)"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "3"
+                    },
+                    "value" : "One slow response delays all the other requests (head of line blocking)"
+                }
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "WebSockets give browsers the ability to communicate with a server over a full-duplex communication channel"
+        }, {
+            "name": "notes",
+            "value": [
+                "But Node is best fitting DIRTy applications - these can use one of the most prominent technologies today - WebSockets",
+                "The WebSocket protocol was developed to overcome the shortcomings of HTTP in relation to real-time applications",
+                "WebSockets give browsers the ability to communicate with a server over a full-duplex communication channel",
+                "At its core, a WebSocket connection is just a conventional TCP connection between an HTTP server and an HTTP client"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Handshake"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.33.websockets.handshake.txt",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "At its core, a WebSocket connection is just a conventional TCP connection between an HTTP server and an HTTP client.",
+                "It’s established using a handshake protocol, which is very similar to an HTTP handshake",
+                "Although this starts out as a regular HTTP connection, the client asks to “upgrade” this connection to a WebSocket connection"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Upgrade"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.33.websockets.upgrade.txt",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "If the server supports the WebSocket protocol, it answers like this:"
+            ]
+        }]
+    ]
 }]
