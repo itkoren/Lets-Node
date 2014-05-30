@@ -700,6 +700,54 @@
             "value": [
                 "SockJS will fallback to long polling (iframe, xhr, JSON etc.) based on the browser support"
             ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-9.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-9"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
         }]
     ]
 }]
