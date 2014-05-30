@@ -621,6 +621,85 @@
         }, {
             "name": "p",
             "value": "We still don't have a full browser support for WebSockets so sometimes we'll want to use an abstraction"
+        }],
+        [{
+            "name": "h2",
+            "value": "WebSockets Abstractions (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "There are two widely used WebSockets implementation abstractions:"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "0"
+                    },
+                    "value" : "SocketIO"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "1"
+                    },
+                    "value" : "SockJS"
+                }
+            ]
+        }, {
+            "name": "notes",
+            "value": [
+                "We are using SockJS since we found it the easiest to use and work with and  it’s API matches exactly the WebSockets standard API"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "SockJS Server"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.33.websockets.sockjs.server.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "SockJS Client"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.33.websockets.sockjs.client.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "SockJS will fallback to long polling (iframe, xhr, JSON etc.) based on the browser support"
+            ]
         }]
     ]
 }]
