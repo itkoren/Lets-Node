@@ -501,6 +501,126 @@
                 "Both sides can now send messages back and forth without any HTTP overhead or additional handshakes,",
                 "making it a bi-directional full-duplex communication connection in which both client and server can send messages to one another at any time without having to wait for one another"
             ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Client"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.33.websockets.client.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "If the server supports the WebSocket protocol, it answers like this",
+                "",
+                "This marks the end of the handshake, and the connection switches to data transfer mode",
+                "Both sides can now send messages back and forth without any HTTP overhead or additional handshakes,",
+                "making it a bi-directional full-duplex communication connection in which both client and server can send messages to one another at any time without having to wait for one another"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Server"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.33.websockets.server.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "If the server supports the WebSocket protocol, it answers like this",
+                "",
+                "This marks the end of the handshake, and the connection switches to data transfer mode",
+                "Both sides can now send messages back and forth without any HTTP overhead or additional handshakes,",
+                "making it a bi-directional full-duplex communication connection in which both client and server can send messages to one another at any time without having to wait for one another"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "WebSockets (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "WebSockets solves many of the HTTP 1.1 disadvantages. It also have some additional advantages:"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "0"
+                    },
+                    "value" : "Sending and Receiving Text and Binary Data"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "1"
+                    },
+                    "value" : "Subprotocol Negotiation"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "2"
+                    },
+                    "value" : "Binary Framing Layer"
+                }
+            ]
+        }, {
+            "name": "notes",
+            "value": [
+                "Further, unlike HTTP or XHR requests, which communicate additional metadata via HTTP headers of each request and response, there is no such equivalent mechanism for a WebSocket message. As a result, if additional metadata about the message is required, then the client and server must agree to implement their own subprotocol to communicate this data",
+                "",
+                "WebSocket provides a simple and convenient subprotocol negotiation API to address the second problem. The client can advertise which protocols it supports to the server as part of its initial connection handshake",
+                "",
+                "The messages are split to one or more frames and the receiver is notified of its delivery when the entire message is available",
+                "",
+                "However, WebSockets does support multiplexing (although there is an extension that will) so order is important and therefore Head-of-Line Blocking can still occur",
+                "Big messages, although split to frames can block the entire connection for other messages",
+                "Keep that in mind and try to create small messages"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "WebSockets Abstractions"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3129954/44f94b42-e7ee-11e3-975a-2693c0dc49a4.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 616px; height: 410px; z-index: 4; left: 185px; top: 137px;"
+            }
+        }, {
+            "name": "p",
+            "value": "We still don't have a full browser support for WebSockets so sometimes we'll want to use an abstraction"
         }]
     ]
 }]
