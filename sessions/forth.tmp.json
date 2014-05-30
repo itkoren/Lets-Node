@@ -664,7 +664,7 @@
             "name": "div",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+                "style": "position: absolute; width: 989px; height: 588px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
             },
             "value": [{
                 "name": "iframe",
