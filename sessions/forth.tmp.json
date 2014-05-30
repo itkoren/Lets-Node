@@ -750,4 +750,27 @@
             }
         }]
     ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3130689/a21b7752-e7fb-11e3-9dad-0f22f954c6c5.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 4; left: 225px; top: 137px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 64px;"
+            },
+            "value": "Scalability"
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }]
+    ]
 }]
