@@ -616,7 +616,7 @@
             "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3129954/44f94b42-e7ee-11e3-975a-2693c0dc49a4.png",
                 "class": "absolute-element",
-                "style": "position: absolute; max-height: none; max-width: none; width: 716px; height: 410px; z-index: 4; left: 85px; top: 237px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 916px; height: 510px; z-index: 4; left: 85px; top: 237px;"
             }
         }, {
             "name": "p",
