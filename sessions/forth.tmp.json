@@ -405,6 +405,54 @@
             ]
         }],
         [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3128710/564b4212-e7d8-11e3-9679-e9109b9a4cde.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 4; left: 225px; top: 197px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3128788/a78a2dc2-e7d9-11e3-9b8b-dba91e37c436.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index" : "0",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 5; left: 225px; top: 197px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3128850/d2c7efd2-e7da-11e3-8d2d-65f910f4be92.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index" : "1",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 6; left: 225px; top: 197px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3128959/4e512550-e7dc-11e3-8fb7-51b7bad1c1ec.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index" : "2",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 7; left: 225px; top: 197px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3128788/a78a2dc2-e7d9-11e3-9b8b-dba91e37c436.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index" : "3",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 8; left: 225px; top: 197px;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3129366/4f11d4b6-e7e2-11e3-9a8a-deff16693125.png",
+                "class": "absolute-element fragment",
+                "data-fragment-index" : "4",
+                "style": "position: absolute; max-height: none; max-width: none; width: 516px; height: 480px; z-index: 9; left: 225px; top: 197px;"
+            }
+        }],
+        [{
             "name": "h2",
             "value": "Handshake"
         }, {
@@ -447,7 +495,11 @@
         }, {
             "name": "notes",
             "value": [
-                "If the server supports the WebSocket protocol, it answers like this:"
+                "If the server supports the WebSocket protocol, it answers like this",
+                "",
+                "This marks the end of the handshake, and the connection switches to data transfer mode",
+                "Both sides can now send messages back and forth without any HTTP overhead or additional handshakes,",
+                "making it a bi-directional full-duplex communication connection in which both client and server can send messages to one another at any time without having to wait for one another"
             ]
         }]
     ]
