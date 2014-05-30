@@ -409,7 +409,7 @@
             "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3128710/564b4212-e7d8-11e3-9679-e9109b9a4cde.png",
                 "class": "absolute-element",
-                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 4; left: 25px; top: 67px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 4; left: 65px; top: 67px;"
             }
         }, {
             "name": "img",
@@ -417,7 +417,7 @@
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3128788/a78a2dc2-e7d9-11e3-9b8b-dba91e37c436.png",
                 "class": "absolute-element fragment",
                 "data-fragment-index" : "0",
-                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 5; left: 25px; top: 67px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 5; left: 65px; top: 67px;"
             }
         }, {
             "name": "img",
@@ -425,7 +425,7 @@
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3128850/d2c7efd2-e7da-11e3-8d2d-65f910f4be92.png",
                 "class": "absolute-element fragment",
                 "data-fragment-index" : "1",
-                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 6; left: 25px; top: 67px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 6; left: 65px; top: 67px;"
             }
         }, {
             "name": "img",
@@ -433,7 +433,7 @@
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3128925/cf50a596-e7db-11e3-9fdf-84cf96c99f44.png",
                 "class": "absolute-element fragment",
                 "data-fragment-index" : "2",
-                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 7; left: 25px; top: 67px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 7; left: 65px; top: 67px;"
             }
         }, {
             "name": "img",
@@ -441,7 +441,7 @@
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3128959/4e512550-e7dc-11e3-8fb7-51b7bad1c1ec.png",
                 "class": "absolute-element fragment",
                 "data-fragment-index" : "3",
-                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 8; left: 25px; top: 67px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 8; left: 65px; top: 67px;"
             }
         }, {
             "name": "img",
@@ -449,7 +449,7 @@
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3129366/4f11d4b6-e7e2-11e3-9a8a-deff16693125.png",
                 "class": "absolute-element fragment",
                 "data-fragment-index" : "4",
-                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 9; left: 25px; top: 67px;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 816px; height: 580px; z-index: 9; left: 65px; top: 67px;"
             }
         }],
         [{
