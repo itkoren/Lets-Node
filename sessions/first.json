@@ -9,7 +9,10 @@
                 "src": "https://docs.google.com/a/liveperson.com/file/d/0B84kScR8zJcfcGdpWWVSSmxoaEE/preview",
                 "width": "640",
                 "height": "385",
-                "style": "width: 805px; height: 473px; max-height: none; max-width: none;"
+                "style": "width: 805px; height: 473px; max-height: none; max-width: none;",
+                "webkitallowfullscreen": true,
+                "mozallowfullscreen": true,
+                "allowfullscreen": true
             }
         }],
         [{
