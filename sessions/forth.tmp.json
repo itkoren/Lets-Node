@@ -789,9 +789,9 @@
         }, {
             "name": "a",
             "attributes": {
-                "href": "//player.vimeo.com/video/85584667?api=1&player_id=85584667#t=1m23s",
+                "href": "./resources/scaling_node_summit_joyent.html",
                 "target": "_blank",
-                "style": "position: absolute; max-height: none; max-width: none; left: 425px; top: 667px;"
+                "style": "position: absolute; max-height: none; max-width: none; left: 445px; top: 667px;"
             },
             "value": "Video"
         }],
