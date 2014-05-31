@@ -814,7 +814,7 @@
                                     "class" : "fragment",
                                     "data-fragment-index" : "3"
                                 },
-                                "value" : "Vertical Scaling"
+                                "value" : "Vertical scaling"
                             },
                             {
                                 "name" : "li",
@@ -822,11 +822,130 @@
                                     "class" : "fragment",
                                     "data-fragment-index" : "4"
                                 },
-                                "value" : "Horizontal Scaling"
+                                "value" : "Horizontal scaling"
                             }
                         ]
                     }]
                 }
+            ]
+        }, {
+            "name": "notes",
+            "value": [
+                "When it comes to increasing the performance of websites and web services, there are only a couple of options:",
+                "increase the efficiency of the code, or scale up the server infrastructure.",
+                "Improving efficiency will only go so far, so at some point scaling is likely required. When it comes to scaling, there are two options:",
+                "vertical scaling, or horizontal scaling.",
+                "Vertical scaling means getting more powerful servers, with higher processing speed and more memory, while horizontal scaling means spreading the load across multiple individual servers.",
+                "Vertical scaling will only go so far, and may not be cost effective.",
+                "Horizontal scaling is a much more effective way of improving performance, and has much greater potential for future increases."
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Scaling Node"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "Node is single-threaded and doesn’t automatically make use of more than a single core"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "1"
+            },
+            "value": "The application can be modified to use multi-process environments and efficiently load balance the traffic across multiple CPU cores"
+        }, {
+            "name": "notes",
+            "value": [
+                "Thanks to its event-driven design that can handle I/O asynchronously, Node.js is geared up to handle high volumes of connections and requests out of the box",
+                "",
+                "BUT, Node is single-threaded and doesn’t automatically make use of more than a single core in your potentially multi-core machine.",
+                "This means, your application won’t take full advantage, of the available capacity the server hosting it, has to offer.",
+                "",
+                "It’s possible to modify your application so that it forks a number of threads that all accept() data on the same port and efficiently load balance it across multiple CPU cores.",
+                "",
+                "Node has a core module called cluster that offers all of the tools you need to achieve this, however it’ll take a bit of elbow grease to work it into your application."
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Cluster Core Module"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.cluster.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "It’s possible to modify your application so that it forks a number of threads that all accept() data on the same port and efficiently load balance it across multiple CPU cores.",
+                "",
+                "Node has a core module called cluster that offers all of the tools you need to achieve this, however it’ll take a bit of elbow grease to work it into your application.",
+                "The cluster module allows you to easily create child processes that all share server ports",
+                "",
+                "If you’re using express, eBay have built a module for it called cluster2"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "Cluster = Simple solution for vertical scaling"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "But we have no control over the load balancing itself"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "1"
+            },
+            "value": "And it is not yet ideal for real-world production environments and for working with express based applications"
+        }, {
+            "name": "notes",
+            "value": [
+                "If you’re using express, eBay have built a module for it called cluster2"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Cluster2 Module (by EBay)"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.cluster2.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "If you’re using express, eBay have built a module for it called cluster2"
             ]
         }]
     ]
