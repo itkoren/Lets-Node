@@ -1118,6 +1118,62 @@
                 "data-fragment-index" : "0"
             },
             "value": "However, in production systems, it is more common to use a more optimized reverse proxy load balancing alternative"
+        }],
+        [{
+            "name": "h2",
+            "value": "Scaling using NginX"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "NginX - open source HTTP server and reverse proxy"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "1"
+            },
+            "value": "It is highly optimized for:"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "2"
+                    },
+                    "value" : "Serving static files such as CSS and HTML"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "3"
+                    },
+                    "value" : "Caching resources"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "4"
+                    },
+                    "value" : "Requests forwarding"
+                }
+            ]
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "4"
+            },
+            "value": "Therefore, NginX can be used to deal with the static, while forwarding requests for dynamic content to the Node server(s)"
         }]
     ]
 }]
