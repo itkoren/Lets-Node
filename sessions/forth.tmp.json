@@ -786,22 +786,13 @@
             "value": [
                 ""
             ]
-        }],
-        [{
-            "name": "h2",
-            "value": "Scalability"
         }, {
-            "name": "iframe",
+            "name": "a",
             "attributes": {
-                "id": "85584667",
-                "src": "//player.vimeo.com/video/85584667?api=1&player_id=85584667#t=1m23s",
-                "width": "800",
-                "height": "581",
-                "style": "width: 825px; height: 600px; max-height: none; max-width: none;",
-                "webkitallowfullscreen": true,
-                "mozallowfullscreen": true,
-                "allowfullscreen": true
-            }
+                "href": "//player.vimeo.com/video/85584667?api=1&player_id=85584667#t=1m23s",
+                "target": "_blank"
+            },
+            "value": "Video"
         }],
         [{
             "name": "h2",
