@@ -1252,12 +1252,20 @@
             "value": "<br>"
         }, {
             "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "1"
+            },
             "value": "Highly optimized and built solely to load balance LOTS of machines"
         }, {
             "name": "p",
             "value": "<br>"
         }, {
             "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "2"
+            },
             "value": "Comes with all the great load balancing features of Nginx + much more load balancing settings"
         }],
         [{
