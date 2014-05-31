@@ -1035,7 +1035,7 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.http.proxy.js",
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.http.reverse.proxy.js",
                     "style": "width: 100%; height: 100%;"
                 }
             }]
@@ -1047,6 +1047,77 @@
                 "",
                 "In the example we can see that the load is balanced between two servers running on different machines"
             ]
+        }],
+        [{
+            "name": "p",
+            "value": "But how can we add new workers to the service?"
+        }, {
+            "name": "notes",
+            "value": [
+                "The balancer is hard coded with the location of each worker, which means that if a worker crashes, the balancer will continue to send it requests",
+                "",
+                "There is an additional problem of how to add new workers to the service.",
+                "In order to add additional workers, the previous balancer would have to be edited and reloaded.",
+                "This problem could be lessened by using a configuration file that the load balancer reloads every so often, but this still requires manual tracking and updating of the configuration file."
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "seaport Module (By Substack)"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 684px; max-height: none; max-width: none; left: 10px; top: 76px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.seaport.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "seaport Module (By Substack) - worker update"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 684px; max-height: none; max-width: none; left: 10px; top: 76px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.seaport.worker.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "This is a nice way of keeping entire software stack in the same technology"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "However, in production systems, it is more common to use a more optimized reverse proxy load balancing alternative"
         }]
     ]
 }]
