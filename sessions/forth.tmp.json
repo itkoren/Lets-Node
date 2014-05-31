@@ -771,6 +771,63 @@
             "value": [
                 ""
             ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Performance Increasing"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "Only a couple of options for increasing the performance of an application:"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "1"
+                    },
+                    "value" : "Increasing the efficiency of the code"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "2"
+                    },
+                    "value" : [{
+                        "name": "p",
+                        "value": "Scaling up the server infrastructure"
+                    }, {
+                        "name":"ul",
+                        "value":[
+                            {
+                                "name" : "li",
+                                "attributes" : {
+                                    "class" : "fragment",
+                                    "data-fragment-index" : "3"
+                                },
+                                "value" : "Vertical Scaling"
+                            },
+                            {
+                                "name" : "li",
+                                "attributes" : {
+                                    "class" : "fragment",
+                                    "data-fragment-index" : "4"
+                                },
+                                "value" : "Horizontal Scaling"
+                            }
+                        ]
+                    }]
+                }
+            ]
         }]
     ]
 }]
