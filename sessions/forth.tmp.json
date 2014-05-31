@@ -852,7 +852,48 @@
                 "class" : "fragment",
                 "data-fragment-index" : "0"
             },
+            "value": "Node is highly efficient and geared up to handle high volumes of connections and requests out of the box"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "There are only small number of tweaks we can do to node itself, to achieve performance improvements"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index" : "1",
+                "style": "position: absolute; width: 989px; height: 308px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.socket.pooling.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "Scaling Node (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
             "value": "Node is single-threaded and doesn’t automatically make use of more than a single core"
+        }, {
+            "name": "p",
+            "value": "<br>"
         }, {
             "name": "p",
             "attributes" : {
@@ -880,7 +921,7 @@
             "name": "div",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+                "style": "position: absolute; width: 989px; height: 608px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
             },
             "value": [{
                 "name": "iframe",
@@ -933,7 +974,7 @@
             "name": "div",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+                "style": "position: absolute; width: 989px; height: 608px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
             },
             "value": [{
                 "name": "iframe",
