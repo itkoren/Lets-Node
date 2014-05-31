@@ -1134,6 +1134,9 @@
             "value": "NginX - open source HTTP server and reverse proxy"
         }, {
             "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
             "attributes" : {
                 "class" : "fragment",
                 "data-fragment-index" : "1"
@@ -1169,9 +1172,12 @@
             ]
         }, {
             "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
             "attributes" : {
                 "class" : "fragment",
-                "data-fragment-index" : "4"
+                "data-fragment-index" : "5"
             },
             "value": "Therefore, NginX can be used to deal with the static, while forwarding requests for dynamic content to the Node server(s)"
         }]
