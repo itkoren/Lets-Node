@@ -868,7 +868,7 @@
             "attributes": {
                 "class": "absolute-element fragment",
                 "data-fragment-index" : "2",
-                "style": "position: absolute; width: 989px; height: 208px; max-height: none; max-width: none; left: 10px; top: 400px; z-index: 6;"
+                "style": "position: absolute; width: 989px; height: 218px; max-height: none; max-width: none; left: 10px; top: 420px; z-index: 6;"
             },
             "value": [{
                 "name": "iframe",
