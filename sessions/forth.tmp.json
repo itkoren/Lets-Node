@@ -1003,7 +1003,9 @@
         }, {
             "name": "notes",
             "value": [
-                "If you’re using express, eBay have built a module for it called cluster2"
+                "If you’re using express, eBay have built a module for it called cluster2",
+                "",
+                "PM2 is another option which gives us a process manager for Node apps with a built-in load balancer - based on the core cluster module"
             ]
         }],
         [{
@@ -1289,6 +1291,30 @@
             "value": [
                 "With haproxy, there are additional load balancing tweaks which can increase performance"
             ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Shared State & Messaging"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "Node offers very little out-of-the-box options for shared state, and has no native shared memory model"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "1"
+            },
+            "value": "In an ideal world, the application would be totally stateless"
         }]
     ]
 }]
