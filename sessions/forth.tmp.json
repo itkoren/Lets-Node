@@ -988,6 +988,61 @@
             "value": [
                 "If you’re using express, eBay have built a module for it called cluster2"
             ]
+        }],
+        [{
+            "name": "p",
+            "value": "This allows us to more effectively take advantage of modern hardware"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "BUT, we are still limited by the resources of a single machine"
+        }],
+        [{
+            "name": "h2",
+            "value": "Scaling Across Machines (Horizontal Scaling)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "For scaling out to multiple machines, we will need a reverse proxy"
+        }, {
+            "name": "notes",
+            "value": [
+                "If the application receives significant traffic, eventually we will need to scale out to multiple machines.",
+                "This can be done using a reverse proxy server to load balance the incoming requests among multiple servers"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "node-http-proxy Module (By Nodejitsu)"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 608px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.http.proxy.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "If the application receives significant traffic, eventually we will need to scale out to multiple machines.",
+                "This can be done using a reverse proxy server to load balance the incoming requests among multiple servers",
+                "",
+                "In the example we can see that the load is balanced between two servers running on different machines"
+            ]
         }]
     ]
 }]
