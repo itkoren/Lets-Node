@@ -1315,6 +1315,114 @@
                 "data-fragment-index" : "1"
             },
             "value": "In an ideal world, the application would be totally stateless"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "2"
+            },
+            "value": "But in real world scenarios we may want to share state or send messages to the active nodes"
+        }],
+        [{
+            "name": "h2",
+            "value": "Messaging with RabbitMQ"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 684px; max-height: none; max-width: none; left: 10px; top: 76px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.rabbitmq.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "State Sharing with Redis"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 684px; max-height: none; max-width: none; left: 10px; top: 76px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.redis.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-10.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-10"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
         }]
     ]
 }]
