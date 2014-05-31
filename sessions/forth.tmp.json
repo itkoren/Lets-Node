@@ -1011,6 +1011,10 @@
             "value": "<br>"
         }, {
             "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
             "value": "For scaling out to multiple machines, we will need a reverse proxy"
         }, {
             "name": "notes",
@@ -1026,7 +1030,7 @@
             "name": "div",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 989px; height: 608px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+                "style": "position: absolute; width: 989px; height: 684px; max-height: none; max-width: none; left: 10px; top: 76px; z-index: 6;"
             },
             "value": [{
                 "name": "iframe",
