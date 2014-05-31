@@ -880,6 +880,23 @@
         }],
         [{
             "name": "h2",
+            "value": "Node Command Line Arguments"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 608px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.command.line.args.sh",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
             "value": "Scaling Node (cont'd)"
         }, {
             "name": "p",
@@ -1179,7 +1196,91 @@
                 "class" : "fragment",
                 "data-fragment-index" : "5"
             },
-            "value": "Therefore, NginX can be used to deal with the static, while forwarding requests for dynamic content to the Node server(s)"
+            "value": "Can be used to deal with the static resources, while forwarding requests for dynamic content to the Node server(s)"
+        }],
+        [{
+            "name": "h2",
+            "value": "NginX Configuration"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 684px; max-height: none; max-width: none; left: 10px; top: 76px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.nginx.conf",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "With nginx, there are additional tweaks which can increase performance, such as caching and serving static resources"
+            ]
+        }],
+        [{
+            "name": "p",
+            "value": "While it is hard to find many downsides to NginX"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "NginX is a server, not a load balancer"
+        }],
+        [{
+            "name": "h2",
+            "value": "Scaling using HAProxy"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes" : {
+                "class" : "fragment",
+                "data-fragment-index" : "0"
+            },
+            "value": "HAProxy (High Availability Proxy) - open source Proxy server"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "Highly optimized and built solely to load balance LOTS of machines"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "Comes with all the great load balancing features of Nginx + much more load balancing settings"
+        }],
+        [{
+            "name": "h2",
+            "value": "HAProxy Configuration"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 684px; max-height: none; max-width: none; left: 10px; top: 76px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.34.scaling.haproxy.cfg",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "With haproxy, there are additional load balancing tweaks which can increase performance"
+            ]
         }]
     ]
 }]
