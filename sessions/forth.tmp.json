@@ -837,7 +837,7 @@
                                     "class" : "fragment",
                                     "data-fragment-index" : "3"
                                 },
-                                "value" : "Vertical scaling"
+                                "value" : "Vertical scaling (scaling up)"
                             },
                             {
                                 "name" : "li",
@@ -845,7 +845,7 @@
                                     "class" : "fragment",
                                     "data-fragment-index" : "4"
                                 },
-                                "value" : "Horizontal scaling"
+                                "value" : "Horizontal scaling (scaling out)"
                             }
                         ]
                     }]
