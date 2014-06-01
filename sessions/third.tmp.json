@@ -60,14 +60,14 @@
                     "class": "fragment",
                     "data-fragment-index": "3"
                 },
-                "value": "<a href=\"https://github.com/Sage/streamlinejs\">streamline</a>"
+                "value": "<a href=\"https://github.com/Sage/streamlinejs\" target=\"_blank\">streamline</a>"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "4"
                 },
-                "value": "<a href=\"https://github.com/laverdet/node-fibers\">Fiber/Coroutine</a>"
+                "value": "<a href=\"https://github.com/laverdet/node-fibers\" target=\"_blank\">Fiber/Coroutine</a>"
             }, {
                 "name": "li",
                 "attributes": {
@@ -167,7 +167,7 @@
                 "class": "fragment",
                 "data-fragment-index": "0"
             },
-            "value": "A <a href=\"http://en.wikipedia.org/wiki/Thunk\">thunk</a> is a <a href=\"http://en.wikipedia.org/wiki/Subroutine\">subroutine</a> that is created, often automatically, to assist a call to another subroutine"
+            "value": "A <a href=\"http://en.wikipedia.org/wiki/Thunk\" target=\"_blank\">thunk</a> is a <a href=\"http://en.wikipedia.org/wiki/Subroutine\" target=\"_blank\">subroutine</a> that is created, often automatically, to assist a call to another subroutine"
         }, {
             "name": "notes",
             "value": [

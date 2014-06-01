@@ -22,7 +22,7 @@
         }],
         [{
             "name": "p",
-            "value": "<a href=\"https://github.com/mbrevoort/node-reggie\">Reggie</a> is a NodeJS server which is a lightweight alternative to a full blown npm registry"
+            "value": "<a href=\"https://github.com/mbrevoort/node-reggie\" target=\"_blank\">Reggie</a> is a NodeJS server which is a lightweight alternative to a full blown npm registry"
         }, {
             "name": "notes",
             "value": [
@@ -231,7 +231,7 @@
         }],
         [{
             "name":"p",
-            "value":"Use <a href\"https://github.com/alexfernandez/loadtest\">loadtest</a> or tools like <a href=\"https://github.com/11main/nodeload\">nodeload</a> for local stress testing"
+            "value":"Use <a href=\"https://github.com/alexfernandez/loadtest\" target=\"_blank\">loadtest</a> or tools like <a href=\"https://github.com/11main/nodeload\" target=\"_blank\">nodeload</a> for local stress testing"
         }, {
             "name": "notes",
             "value": [
@@ -258,7 +258,7 @@
                         "class" : "fragment",
                         "data-fragment-index" : "0"
                     },
-                    "value" : "<a href=\"https://github.com/jugglinmike/beeswithmachineguns\">Bees with Machine Guns</a>"
+                    "value" : "<a href=\"https://github.com/jugglinmike/beeswithmachineguns\" target=\"_blank\">Bees with Machine Guns</a>"
                 },
                 {
                     "name" : "li",
@@ -266,7 +266,7 @@
                         "class" : "fragment",
                         "data-fragment-index" : "1"
                     },
-                    "value" : "<a href=\"https://www.blitz.io/\">Blitz.IO</a>"
+                    "value" : "<a href=\"https://www.blitz.io/\" target=\"_blank\">Blitz.IO</a>"
                 },
                 {
                     "name" : "li",
@@ -274,7 +274,7 @@
                         "class" : "fragment",
                         "data-fragment-index" : "2"
                     },
-                    "value" : "<a href=\"http://www.redline13.com/\">RedLine13</a>"
+                    "value" : "<a href=\"http://www.redline13.com/\" target=\"_blank\">RedLine13</a>"
                 }
             ]
         }, {

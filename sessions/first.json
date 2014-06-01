@@ -143,7 +143,7 @@
                         "class": "fragment",
                         "data-fragment-index": "7"
                     },
-                    "value": "Although it is quite young, Node is very popular. <a href=\"https://github.com/search?o=desc&amp;q=stars%3A%3E1&amp;s=stars&amp;type=Repositories\">see</a>"
+                    "value": "Although it is quite young, Node is very popular. <a href=\"https://github.com/search?o=desc&amp;q=stars%3A%3E1&amp;s=stars&amp;type=Repositories\" target=\"_blank\">see</a>"
                 }]
             }]
         }, {
@@ -238,7 +238,8 @@
                 "class": "fragment",
                 "data-fragment-index": "1",
                 "style": "position: absolute; z-index: 10; left: 400px; top: 420px;",
-                "href": "https://github.com/joyent/libuv"
+                "href": "https://github.com/joyent/libuv",
+                "target": "_blank"
             },
             "value": "libuv"
         }, {
@@ -279,7 +280,8 @@
             "value": [{
                 "name": "a",
                 "attributes": {
-                    "href": "https://github.com/joyent/node/commit/28c6e42e"
+                    "href": "https://github.com/joyent/node/commit/28c6e42e",
+                    "target": "_blank"
                 },
                 "value": "No Worries Guys"
             }]
@@ -458,7 +460,7 @@
                         "class": "fragment absolute-element",
                         "data-fragment-index": "4"
                     },
-                    "value": "Javascript engines are very <a href=\"http://bellard.org/jslinux/\">fast</a>"
+                    "value": "Javascript engines are very <a href=\"http://bellard.org/jslinux/\" target=\"_blank\">fast</a>"
                 }, {
                     "name": "li",
                     "attributes": {
@@ -925,7 +927,7 @@
                 "class": "absolute-element",
                 "style": "position: absolute; width: 966px; height: 94px; z-index: 4; left: -2px; top: 447px;"
             },
-            "value": "A good example for a DIRTy application written with Node is <a href=\"https://browserling.com/\">Browserling</a>"
+            "value": "A good example for a DIRTy application written with Node is <a href=\"https://browserling.com/\" target=\"_blank\">Browserling</a>"
         }]
     ]
 }, {
@@ -1116,7 +1118,7 @@
                         "class": "fragment",
                         "data-fragment-index": "0"
                     },
-                    "value": "Defined by <a href=\"http://en.wikipedia.org/wiki/Douglas_C._Schmidt\">Doug C. Schmidt</a> in 1995"
+                    "value": "Defined by <a href=\"http://en.wikipedia.org/wiki/Douglas_C._Schmidt\" target=\"_blank\">Doug C. Schmidt</a> in 1995"
                 }, {
                     "name": "li",
                     "attributes": {
@@ -2301,7 +2303,8 @@
                         "value": [{
                             "name": "a",
                             "attributes": {
-                                "href": "https://github.com/felixge/node-memory-leak-tutorial"
+                                "href": "https://github.com/felixge/node-memory-leak-tutorial",
+                                "target": "_blank"
                             },
                             "value": "v8-profiler with node-inspector"
                         }]
@@ -2310,7 +2313,8 @@
                         "value": [{
                             "name": "a",
                             "attributes": {
-                                "href": "http://valgrind.org/docs/manual/quick-start.html#quick-start.intro"
+                                "href": "http://valgrind.org/docs/manual/quick-start.html#quick-start.intro",
+                                "target": "_blank"
                             },
                             "value": "Valgrind"
                         }]
@@ -2325,7 +2329,8 @@
                         "value": [{
                             "name": "a",
                             "attributes": {
-                                "href": "https://github.com/lloyd/node-memwatch"
+                                "href": "https://github.com/lloyd/node-memwatch",
+                                "target": "_blank"
                             },
                             "value": "node-memwatch"
                         }]
@@ -2334,7 +2339,8 @@
                         "value": [{
                             "name": "a",
                             "attributes": {
-                                "href": "http://nodetime.com/"
+                                "href": "http://nodetime.com/",
+                                "target": "_blank"
                             },
                             "value": "NodeTime"
                         }]
@@ -2626,7 +2632,7 @@
                 "data-fragment-index": "2",
                 "style": "position: absolute; width: 884px; height: 93px; z-index: 4; left: 33px; top: 425px; max-height: none; max-width: none;"
             },
-            "value": "In order to <a href=\"http://nodejs.org/docs/latest/api/modules.html#modules_cycles\">allow cycles to be resolved</a>"
+            "value": "In order to <a href=\"http://nodejs.org/docs/latest/api/modules.html#modules_cycles\" target=\"_blank\">allow cycles to be resolved</a>"
         }, {
             "name": "div",
             "attributes": {
