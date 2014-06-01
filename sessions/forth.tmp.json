@@ -1242,7 +1242,9 @@
         }, {
             "name": "notes",
             "value": [
-                "With nginx, there are additional tweaks which can increase performance, such as caching and serving static resources"
+                "With NginX, there are additional tweaks which can increase performance, such as caching and serving static resources",
+                "",
+                "Another Important NOTE is that early SSL termination busts performance and we can do it in NginX"
             ]
         }],
         [{
