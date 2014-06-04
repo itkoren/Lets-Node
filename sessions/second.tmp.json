@@ -567,7 +567,9 @@
                 "As we already seen, most of the Node API’s are asynchronous",
                 "",
                 "But what about our code?",
-                "What about long running operations?"
+                "What about long running operations?",
+                "",
+                "Lets see example"
             ]
         }],
         [{
@@ -593,7 +595,9 @@
             "value": [
                 "Lets see how we can use it to make our code async",
                 "",
-                "process.nextTick is mistakenly used for this as well though we should not use it"
+                "process.nextTick is mistakenly used for this as well though we should not use it",
+                "",
+                "Lets see example"
             ]
         }],
         [{
@@ -650,7 +654,9 @@
                 "Thus misusing nextTick can starve the system of I/O and cause performance degradation",
                 "",
                 "setImmediate happens on the NEXT tick.",
-                "process.nextTick happens on the SAME tick (usually, with caveat about maxTickDepth)."
+                "process.nextTick happens on the SAME tick (usually, with caveat about maxTickDepth).",
+                "",
+                "Lets see example"
             ]
         }],
         [{
