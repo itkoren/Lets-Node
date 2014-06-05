@@ -281,6 +281,106 @@
             "name": "h3",
             "value": "So how we search for External Modules?"
         }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name":"ul",
+            "value":[
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "0"
+                    },
+                    "value" : "npm search"
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "1"
+                    },
+                    "value" : [
+                        {
+                            "name": "a",
+                            "attributes": {
+                                "href": "https://www.npmjs.org/",
+                                "target": "_blank"
+                            },
+                            "value": "npm website"
+                        }
+                    ]
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "2"
+                    },
+                    "value" : [
+                        {
+                            "name": "a",
+                            "attributes": {
+                                "href": "http://npmsearch.com/",
+                                "target": "_blank"
+                            },
+                            "value": "npmsearch"
+                        }
+                    ]
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "4"
+                    },
+                    "value" : [
+                        {
+                            "name": "a",
+                            "attributes": {
+                                "href": "http://eirikb.github.io/nipster/",
+                                "target": "_blank"
+                            },
+                            "value": "nipster"
+                        }
+                    ]
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "5"
+                    },
+                    "value" : [
+                        {
+                            "name": "a",
+                            "attributes": {
+                                "href": "http://node-modules.com/",
+                                "target": "_blank"
+                            },
+                            "value": "node modules"
+                        }
+                    ]
+                },
+                {
+                    "name" : "li",
+                    "attributes" : {
+                        "class" : "fragment",
+                        "data-fragment-index" : "6"
+                    },
+                    "value" : [
+                        {
+                            "name": "a",
+                            "attributes": {
+                                "href": "https://nodejsmodules.org",
+                                "target": "_blank"
+                            },
+                            "value": "nodejs modules"
+                        }
+                    ]
+                }
+            ]
+        }, {
             "name": "notes",
             "value": [
                 "So When we need to develop a generic functionality, we should first search for an existing external module",
@@ -288,6 +388,10 @@
                 "Search via:",
                 "NPM CLI",
                 "NPM Website",
+                "http://npmsearch.com/",
+                "http://eirikb.github.io/nipster/",
+                "http://node-modules.com/",
+                "https://nodejsmodules.org",
                 "",
                 "Now lets see some more cool things we can do with External Modules and Node require",
                 "In REPL:",
