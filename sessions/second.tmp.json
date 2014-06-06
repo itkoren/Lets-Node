@@ -441,7 +441,7 @@
         }, {
             "name": "notes",
             "value": [
-                "To create pckage.json",
+                "To create package.json",
                 "npm init",
                 "",
                 "Lets look at some of the important attributes of the package.json file",
@@ -797,6 +797,38 @@
         [{
             "name": "h3",
             "value": "check \"webworker-threads\", \"threads_a_gogo\" or child_process forking for more intensive processing"
+        }],
+        [{
+            "name": "h3",
+            "value": "We can also use a C++ addon when needed"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 899px; height: 358px; max-height: none; max-width: none; left: 30px; top: 110px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.18.async.long.running.cpp",
+                    "class": "fragment",
+                    "data-fragment-index": "0",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "We can always use C++ addons when needed and performance is crucial",
+                "",
+                "npm install -g node-gyp",
+                "",
+                "node-gyp configure build",
+                "",
+                "var addon = require(\"./addon/build/Release/addon\");",
+                "",
+                "Lets see a couple of examples"
+            ]
         }],
         [{
             "name": "pre",
