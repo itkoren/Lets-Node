@@ -956,7 +956,7 @@
                 "class": "fragment",
                 "data-fragment-index": "0"
             },
-            "value": "data source which emits \"data\" events for each \"chunk\" of data it gets and emits \"end\" when they are all finished"
+            "value": "data source which emits \"readable\"|\"data\" events for each \"chunk\" of data it gets and emits \"end\" when they are all finished (+ emits \"error\" event)"
         }, {
             "name": "notes",
             "value": [
@@ -990,7 +990,7 @@
                 "class": "fragment",
                 "data-fragment-index": "0"
             },
-            "value": "A target for data which implements \"write\" & \"end\""
+            "value": "A target for data which implements \"write\" & \"end\" and emits \"drain\" event (+ emits \"error\" event)"
         }, {
             "name": "notes",
             "value": [
@@ -1028,7 +1028,7 @@
         }, {
             "name": "notes",
             "value": [
-                "Lets see exampe for upload progress using streams",
+                "Lets see example for upload progress using streams",
                 "",
                 "var http;",
                 "var fs;",
@@ -1504,26 +1504,33 @@
             "name": "p",
             "value": "<br>"
         }, {
-            "name": "div",
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "3"
+            },
+            "value": "<code>var buffer = new Buffer(13, \"utf-8\");</code>"
+        }, {
+            "name": "p",
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "3"
             },
             "value": "<code>buffer.write(\"Hello\", \"utf-8\");</code>"
         }, {
-            "name": "div",
+            "name": "p",
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "3"
             },
             "value": "<code>buffer.write(\" world!\", 5, \"utf-8\");</code>"
         }, {
-            "name": "div",
+            "name": "p",
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "3"
             },
-            "value": "<code>buffer.toString(\"utf-8\", 0, 12);</code>"
+            "value": "<code>var data = buffer.toString(\"utf-8\", 0, 12); // \"Hello World\"</code>"
         }],
         [{
             "name": "h2",
