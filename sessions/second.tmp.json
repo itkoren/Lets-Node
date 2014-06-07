@@ -1508,7 +1508,7 @@
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "3",
-                "style": "position: absolute; left: 20px; top 380px;"
+                "style": "position: absolute; left: 20px; top: 380px;"
             },
             "value": "<code>var buffer = new Buffer(13, \"utf-8\");</code>"
         }, {
@@ -1516,7 +1516,7 @@
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "4",
-                "style": "position: absolute; left: 20px; top 400px;"
+                "style": "position: absolute; left: 20px; top: 400px;"
             },
             "value": "<code>buffer.write(\"Hello\", \"utf-8\");</code>"
         }, {
@@ -1524,7 +1524,7 @@
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "5",
-                "style": "position: absolute; left: 20px; top 420px;"
+                "style": "position: absolute; left: 20px; top: 420px;"
             },
             "value": "<code>buffer.write(\" world!\", 5, \"utf-8\");</code>"
         }, {
@@ -1532,7 +1532,7 @@
             "attributes": {
                 "class": "fragment",
                 "data-fragment-index": "6",
-                "style": "position: absolute; left: 20px; top 440px;"
+                "style": "position: absolute; left: 20px; top: 440px;"
             },
             "value": "<code>var data = buffer.toString(\"utf-8\", 0, 12); // \"Hello World\"</code>"
         }],
