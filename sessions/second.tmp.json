@@ -476,7 +476,7 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.15.package.json.js",
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.15.package.json.js",
                     "class": "fragment",
                     "data-fragment-index": "0",
                     "style": "width: 100%; height: 100%;"
@@ -688,7 +688,7 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.18.async.long.running.js",
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.18.async.long.running.js",
                     "class": "fragment",
                     "data-fragment-index": "0",
                     "style": "width: 100%; height: 100%;"
@@ -812,7 +812,7 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.18.async.long.running.cpp",
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.18.async.long.running.cpp",
                     "class": "fragment",
                     "data-fragment-index": "0",
                     "style": "width: 100%; height: 100%;"
@@ -973,7 +973,7 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.19.streams.pipe.readable.js",
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.19.streams.pipe.readable.js",
                     "style": "width: 100%; height: 100%;"
                 }
             }]
@@ -1006,7 +1006,7 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.19.streams.pipe.writable.js",
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.19.streams.pipe.writable.js",
                     "style": "width: 100%; height: 100%;"
                 }
             }]
@@ -1599,7 +1599,7 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.21.callback.hell.template.js",
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.21.callback.hell.template.js",
                     "style": "width: 100%; height: 100%;"
                 }
             }]
@@ -1770,7 +1770,7 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "https://itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.21.callback.hell.async.js",
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.21.callback.hell.async.js",
                     "style": "width: 100%; height: 100%;"
                 }
             }]
