@@ -701,7 +701,9 @@
                 "",
                 "process.nextTick is mistakenly used for this as well though we should not use it",
                 "",
-                "Lets see example"
+                "Lets see example",
+                "",
+                "One more important optimization note: anonymous functions as arguments cannot be optimized by V8"
             ]
         }],
         [{
