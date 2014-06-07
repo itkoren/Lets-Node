@@ -678,7 +678,7 @@
         }],
         [{
             "name": "h3",
-            "value": "Meet setImmediate"
+            "value": "Meet <a href=\"https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/setImmediate/Overview.html#sec-efficient-script-yielding\" target=\"_blank\">setImmediate</a>"
         }, {
             "name": "div",
             "attributes": {
