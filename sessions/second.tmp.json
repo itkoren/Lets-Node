@@ -1829,6 +1829,17 @@
                 "class": "absolute-element",
                 "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
             }
+        }],
+        [{
+            "name": "h2",
+            "value": "<a href=\"https://www.youtube.com/watch?v=D9H_V9cI5Do&list=PL5JR8tO1JinOVyDBM1wT3JB1qPm-8jQSH\" target=\"_blank\">Additional Resources</a>"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "//www.youtube.com/embed/D9H_V9cI5Do?list=PL5JR8tO1JinOVyDBM1wT3JB1qPm-8jQSH",
+                "style": "width: 805px; height: 560px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 121px; top: 141px;"
+            }
         }]
     ]
 }]
