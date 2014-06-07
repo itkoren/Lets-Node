@@ -800,7 +800,7 @@
         }],
         [{
             "name": "h3",
-            "value": "We can also use a C++ addon when needed"
+            "value": "We can also use a <a href=\"http://nodejs.org/api/addons.html\" target=\"_blank\">C++ addon</a> when needed"
         }, {
             "name": "div",
             "attributes": {
