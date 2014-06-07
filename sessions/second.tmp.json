@@ -767,7 +767,7 @@
         }],
         [{
             "name": "h2",
-            "value": "We'll use setImmediate for:"
+            "value": "We'll use <a href=\"http://domenic.me/setImmediate-shim-demo/\" target=\"_blank\">setImmediate</a> for:"
         }, {
             "name": "p",
             "value": "<br>"
@@ -793,7 +793,7 @@
                     "class": "fragment",
                     "data-fragment-index": "2"
                 },
-                "value": "deferring execution of methods"
+                "value": "Deferring execution of methods"
             }]
         }],
         [{
