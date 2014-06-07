@@ -1534,7 +1534,7 @@
                 "data-fragment-index": "6",
                 "style": "position: absolute; left: 4px; top: 500px;"
             },
-            "value": "<code>var data = buffer.toString(\"utf-8\", 0, 12); // \"Hello World\"</code>"
+            "value": "<code>var data = buffer.toString(\"utf-8\", 0, 12);</code>"
         }],
         [{
             "name": "h2",
