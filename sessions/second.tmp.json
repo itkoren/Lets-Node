@@ -1649,7 +1649,7 @@
             "name": "div",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 899px; height: 388px; max-height: none; max-width: none; left: 30px; top: 110px; z-index: 6;"
+                "style": "position: absolute; width: 899px; height: 588px; max-height: none; max-width: none; left: 30px; top: 60px; z-index: 6;"
             },
             "value": [{
                 "name": "iframe",
