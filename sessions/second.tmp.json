@@ -1558,7 +1558,7 @@
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "4",
-                        "style": "position: absolute; left: 4px; top: 60px;"
+                        "style": "position: absolute; left: 4px; top: 50px;"
                     },
                     "value": "<code data-trim>buffer.write(\"Hello\", \"utf-8\");</code>"
                 }, {
@@ -1566,7 +1566,7 @@
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "5",
-                        "style": "position: absolute; left: 4px; top: 110px;"
+                        "style": "position: absolute; left: 4px; top: 90px;"
                     },
                     "value": "<code data-trim>buffer.write(\" world!\", 5, \"utf-8\");</code>"
                 }, {
@@ -1574,7 +1574,7 @@
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "6",
-                        "style": "position: absolute; left: 4px; top: 160px;"
+                        "style": "position: absolute; left: 4px; top: 130px;"
                     },
                     "value": "<code data-trim>var data = buffer.toString(\"utf-8\", 0, 12);</code>"
                 }
