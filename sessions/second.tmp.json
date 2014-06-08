@@ -1526,21 +1526,21 @@
                     "class": "fragment",
                     "data-fragment-index": "0"
                 },
-                "value": "A byte size definition - <pre><code data-trim>new Buffer(4)</code></pre>"
+                "value": "A byte size definition - <code data-trim>new Buffer(4)</code>"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "1"
                 },
-                "value": "An array - <pre><code data-trim>new Buffer([1, 2, 3, 4]);</code></pre>"
+                "value": "An array - <code data-trim>new Buffer([1, 2, 3, 4]);</code>"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "2"
                 },
-                "value": "A string - <pre><code data-trim>new Buffer(\"foo\", \"utf-8\");</code></pre>"
+                "value": "A string - <code data-trim>new Buffer(\"foo\", \"utf-8\");</code>"
             }]
         }, {
             "name": "p",
