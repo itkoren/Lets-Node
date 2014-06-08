@@ -1561,7 +1561,7 @@
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "4",
-                        "style": "position: absolute; left: 4px; top: 20px;"
+                        "style": "position: absolute; left: 4px; top: 60px;"
                     },
                     "value": "<code data-trim>buffer.write(\"Hello\", \"utf-8\");</code>"
                 }, {
@@ -1569,7 +1569,7 @@
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "5",
-                        "style": "position: absolute; left: 4px; top: 30px;"
+                        "style": "position: absolute; left: 4px; top: 110px;"
                     },
                     "value": "<code data-trim>buffer.write(\" world!\", 5, \"utf-8\");</code>"
                 }, {
@@ -1577,7 +1577,7 @@
                     "attributes": {
                         "class": "fragment",
                         "data-fragment-index": "6",
-                        "style": "position: absolute; left: 4px; top: 40px;"
+                        "style": "position: absolute; left: 4px; top: 160px;"
                     },
                     "value": "<code data-trim>var data = buffer.toString(\"utf-8\", 0, 12);</code>"
                 }
