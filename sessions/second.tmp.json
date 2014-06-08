@@ -1385,7 +1385,7 @@
             "value": [
                 "When the To space is full, \"To space\" and \"From space\" are swapped",
                 "",
-                "Page Paused & Collection is triggered"
+                "Program is Paused & Collection is triggered"
             ]
         }],
         [{
@@ -1393,7 +1393,7 @@
             "value": "Young Generation Management (cont'd)"
         }, {
             "name": "p",
-            "value": "Page Paused & Collection is triggered"
+            "value": "Program is Paused & Collection is triggered"
         }, {
             "name": "p",
             "attributes": {
@@ -1433,7 +1433,7 @@
         }, {
             "name": "notes",
             "value": [
-                "Page Paused & Collection is triggered",
+                "Program is Paused & Collection is triggered",
                 "",
                 "Live values are found and are copied to the \"To space\" again (this is where most of the time goes)"
             ]
