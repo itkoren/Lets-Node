@@ -27,6 +27,8 @@
                 "A vast majority of Node’s core functionality is implemented using modules written in Javascript",
                 "Node module has a number of variables which are available by default - process, __dirname, __filename, require.main",
                 "",
+                "Show Documentation Stability Flag",
+                "",
                 "console.log(\"Basic string logging\");",
                 "",
                 "var obj = {1: true, 2: false};",
