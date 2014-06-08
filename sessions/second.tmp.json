@@ -1549,45 +1549,37 @@
             "name": "pre",
             "value": [
                 {
-                    "name": "code",
+                    "name": "div",
                     "attributes": {
-                        "data-trim": ""
+                        "class": "fragment",
+                        "data-fragment-index": "3",
+                        "style": "position: absolute; left: 4px; top: 380px;"
                     },
-                    "value": [
-                        {
-                            "name": "div",
-                            "attributes": {
-                                "class": "fragment",
-                                "data-fragment-index": "3",
-                                "style": "position: absolute; left: 4px; top: 380px;"
-                            },
-                            "value": "var buffer = new Buffer(13, \"utf-8\");"
-                        }, {
-                            "name": "div",
-                            "attributes": {
-                                "class": "fragment",
-                                "data-fragment-index": "4",
-                                "style": "position: absolute; left: 4px; top: 420px;"
-                            },
-                            "value": "buffer.write(\"Hello\", \"utf-8\");"
-                        }, {
-                            "name": "div",
-                            "attributes": {
-                                "class": "fragment",
-                                "data-fragment-index": "5",
-                                "style": "position: absolute; left: 4px; top: 460px;"
-                            },
-                            "value": "buffer.write(\" world!\", 5, \"utf-8\");"
-                        }, {
-                            "name": "div",
-                            "attributes": {
-                                "class": "fragment",
-                                "data-fragment-index": "6",
-                                "style": "position: absolute; left: 4px; top: 500px;"
-                            },
-                            "value": "var data = buffer.toString(\"utf-8\", 0, 12);"
-                        }
-                    ]
+                    "value": "<code data-trim>var buffer = new Buffer(13, \"utf-8\");</code>"
+                }, {
+                    "name": "div",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4",
+                        "style": "position: absolute; left: 4px; top: 420px;"
+                    },
+                    "value": "<code data-trim>buffer.write(\"Hello\", \"utf-8\");</code>"
+                }, {
+                    "name": "div",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "5",
+                        "style": "position: absolute; left: 4px; top: 460px;"
+                    },
+                    "value": "<code data-trim>buffer.write(\" world!\", 5, \"utf-8\");</code>"
+                }, {
+                    "name": "div",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "6",
+                        "style": "position: absolute; left: 4px; top: 500px;"
+                    },
+                    "value": "<code data-trim>var data = buffer.toString(\"utf-8\", 0, 12);</code>"
                 }
             ]
         }],
