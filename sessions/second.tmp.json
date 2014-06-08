@@ -1526,21 +1526,21 @@
                     "class": "fragment",
                     "data-fragment-index": "0"
                 },
-                "value": "A byte size definition - <code>new Buffer(4)</code>"
+                "value": "A byte size definition - <pre><code data-trim>new Buffer(4)</code></pre>"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "1"
                 },
-                "value": "An array - <code>new Buffer([1, 2, 3, 4]);</code>"
+                "value": "An array - <pre><code data-trim>new Buffer([1, 2, 3, 4]);</code></pre>"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "2"
                 },
-                "value": "A string: new Buffer(\"foo\", \"utf-8\");"
+                "value": "A string - <pre><code data-trim>new Buffer(\"foo\", \"utf-8\");</code></pre>"
             }]
         }, {
             "name": "p",
@@ -1552,7 +1552,7 @@
                 "data-fragment-index": "3",
                 "style": "position: absolute; left: 4px; top: 380px;"
             },
-            "value": "<code>var buffer = new Buffer(13, \"utf-8\");</code>"
+            "value": "<pre><code data-trim>var buffer = new Buffer(13, \"utf-8\");</code></pre>"
         }, {
             "name": "div",
             "attributes": {
@@ -1560,7 +1560,7 @@
                 "data-fragment-index": "4",
                 "style": "position: absolute; left: 4px; top: 420px;"
             },
-            "value": "<code>buffer.write(\"Hello\", \"utf-8\");</code>"
+            "value": "<pre><code data-trim>buffer.write(\"Hello\", \"utf-8\");</code></pre>"
         }, {
             "name": "div",
             "attributes": {
@@ -1568,7 +1568,7 @@
                 "data-fragment-index": "5",
                 "style": "position: absolute; left: 4px; top: 460px;"
             },
-            "value": "<code>buffer.write(\" world!\", 5, \"utf-8\");</code>"
+            "value": "<pre><code data-trim>buffer.write(\" world!\", 5, \"utf-8\");</code></pre>"
         }, {
             "name": "div",
             "attributes": {
@@ -1576,7 +1576,7 @@
                 "data-fragment-index": "6",
                 "style": "position: absolute; left: 4px; top: 500px;"
             },
-            "value": "<code>var data = buffer.toString(\"utf-8\", 0, 12);</code>"
+            "value": "<pre><code data-trim>var data = buffer.toString(\"utf-8\", 0, 12);</code></pre>"
         }],
         [{
             "name": "h2",
