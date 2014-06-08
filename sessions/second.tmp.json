@@ -1052,7 +1052,7 @@
         }, {
             "name": "notes",
             "value": [
-                ""
+                "Lets see some examples"
             ]
         }],
         [{
@@ -1097,6 +1097,10 @@
                 "  res.end(\"Upload Complete!\\n\");",
                 "});"
             ]
+        }],
+        [{
+            "name": "p",
+            "value": "We can use the <a href=\"https://www.npmjs.org/package/readable-stream\" target=\"_blank\">readable-stream</a> module to make our streams2 code compliant with node 0.8 and below"
         }]
     ]
 }, {
