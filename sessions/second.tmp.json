@@ -961,6 +961,13 @@
             "name": "notes",
             "value": [
                 "Readable streams can also be paused and resumed",
+                "",
+                "Note that whenever you register a \"data\" listener, you put the stream into compatibility mode so you lose the benefits of the new streams2 api",
+                "",
+                "You should pretty much never register \"data\" and \"end\" handlers yourself anymore",
+                "If you need to interact with legacy streams, use libraries that you can .pipe() to instead where possible",
+                "For example, you can use \"through\" to avoid setting up explicit \"data\" and \"end\" listeners",
+                "or use \"concat-stream\" to buffer up an entire stream's contents",
                 ""
             ]
         }],
@@ -1021,6 +1028,32 @@
                 "data-fragment-index": "0"
             },
             "value": "readableStream.pipe(writableStream);"
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3210851/86e72818-eeeb-11e3-9663-3a93a38ddc22.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 646px; height: 510px; z-index: 4; left: 310px; top: 317px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3210853/c024d3f0-eeeb-11e3-9378-89f6324d70a2.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 646px; height: 510px; z-index: 4; left: 310px; top: 317px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
         }],
         [{
             "name": "h3",
