@@ -1543,9 +1543,6 @@
                 "value": "A string - <code data-trim>new Buffer(\"foo\", \"utf-8\");</code>"
             }]
         }, {
-            "name": "p",
-            "value": "<br>"
-        }, {
             "name": "pre",
             "value": [
                 {
