@@ -1034,7 +1034,7 @@
             "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3210851/86e72818-eeeb-11e3-9663-3a93a38ddc22.png",
                 "class": "absolute-element",
-                "style": "position: absolute; max-height: none; max-width: none; width: 896px; height: 510px; z-index: 4; left: 10px; top: 17px; background-color: white;"
+                "style": "position: absolute; max-height: none; max-width: none; width: 896px; height: 410px; z-index: 4; left: 10px; top: 17px; background-color: white;"
             }
         }, {
             "name": "notes",
