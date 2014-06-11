@@ -95,18 +95,22 @@
                     "class": "fragment",
                     "data-fragment-index": "1"
                 },
-                "value": "Generators - Represents a sequence of values"
+                "value": "Iterators"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "2"
                 },
-                "value": "Iterators"
+                "value": "Generators - Represents a sequence of values"
             }]
         }, {
             "name": "notes",
             "value": [
+                "An iterator is an object with a next method that returns { done, value } tuples",
+                "",
+                "A generator is a specific type of iterator whose next results are determined by the behavior of its corresponding generator function",
+                "A generator function is a special type of function that acts as a constructor for generators",
                 "Instead of returning a value, when you first call a generator function, it returns an iterator",
                 "We can look at generators as lightweight co-routines for JavaScript",
                 "They allow a function to be suspended and resumed via the \"yield\" keyword",
@@ -123,7 +127,29 @@
             "value": [{
                 "name": "iframe",
                 "attributes": {
-                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.22.callback.hell.generators.js",
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.22.callback.hell.static.generators.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see it in action (generators.js & interview.js)",
+                "",
+                "Suspending execution, waiting for something to happen, then picking up where you left off can give us great tools for asynchronous programming and control flow",
+                "This way, we can even use try & catch for handling errors"
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 488px; max-height: none; max-width: none; left: 10px; top: 100px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.22.callback.hell.dynamic.generators.js",
                     "style": "width: 100%; height: 100%;"
                 }
             }]
