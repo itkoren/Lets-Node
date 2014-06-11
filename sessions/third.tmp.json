@@ -200,6 +200,34 @@
                 "A \"thunk\" is a subroutine that is created, often automatically, to assist a call to another subroutine",
                 "This is implemented basically as a partially evaluated function with just the callback argument left over to be filled in",
                 "",
+                "Within generators, we’ll be yielding thunks to write programs without callbacks. A simple thunk is shown below.",
+                "",
+                "Since Node core functionality isn’t \"thunk\"-aware, we make it so by using the external \"co\"",
+                "\"co\" takes a generator function which can be suspended at anytime using the \"yield\" keyword and manages its flow of execution by calling \"next\" upon yielding",
+                "Do you remember factorial.js - lets see it again with generators, co and thunk"
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 989px; height: 700px; max-height: none; max-width: none; left: 10px; top: 4px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.22.callback.hell.generators.thunk.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "A \"thunk\" is a subroutine that is created, often automatically, to assist a call to another subroutine",
+                "This is implemented basically as a partially evaluated function with just the callback argument left over to be filled in",
+                "",
+                "Within generators, we’ll be yielding thunks to write programs without callbacks. A simple thunk is shown below.",
+                "",
                 "Since Node core functionality isn’t \"thunk\"-aware, we make it so by using the external \"co\"",
                 "\"co\" takes a generator function which can be suspended at anytime using the \"yield\" keyword and manages its flow of execution by calling \"next\" upon yielding",
                 "Do you remember factorial.js - lets see it again with generators, co and thunk"
