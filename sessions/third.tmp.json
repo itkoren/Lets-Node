@@ -775,7 +775,7 @@
         [{
             "name": "img",
             "attributes": {
-                "src": "https://cloud.githubusercontent.com/assets/3624786/3004919/257f6c02-ddc5-11e3-9810-280487858ad3.png",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3262138/e91dc78e-f261-11e3-9e0f-8e4259ff16a4.png",
                 "class": "absolute-element",
                 "style": "position: absolute; max-height: none; max-width: none; width: 746px; height: 610px; z-index: 4; left: 100px; top: 10px;"
             }
