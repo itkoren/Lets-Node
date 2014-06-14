@@ -422,7 +422,7 @@
         }],
         [{
             "name": "p",
-            "value": "For development only, we can also have long stack traces with longjohn"
+            "value": "For development only, we can also have long stack traces with <a href=\"https://github.com/mattinsler/longjohn\" target=\"_blank\">longjohn</a>"
         }, {
             "name": "notes",
             "value": [
