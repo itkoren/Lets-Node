@@ -1028,7 +1028,7 @@
                 "class": "fragment",
                 "data-fragment-index": "0"
             },
-            "value": "Four types of tools are needed for implementing successfull testing flow of Node applications:"
+            "value": "Five types of tools are needed for implementing successful testing flow of Node applications:"
         }, {
             "name": "ul",
             "value": [{
@@ -1037,28 +1037,35 @@
                     "class": "fragment",
                     "data-fragment-index": "1"
                 },
-                "value": "A Testing Framework (Mocha, Jasmine, Expresso, NodeUnit, Vows, Intern, ++)"
+                "value": "A Testing Framework (<a href=\"http://visionmedia.github.io/mocha/\" target=\"_blank\">Mocha</a>, <a href=\"http://jasmine.github.io/\" target=\"_blank\">Jasmine</a>, <a href=\"http://visionmedia.github.io/expresso/\" target=\"_blank\">Expresso</a>, <a href=\"https://github.com/caolan/nodeunit\" target=\"_blank\">NodeUnit</a>, <a href=\"http://vowsjs.org/\" target=\"_blank\">Vows</a>, <a href=\"http://theintern.io/\" target=\"_blank\">Intern</a>, ++)"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "2"
                 },
-                "value": "An Assertion/Expectation Library (Chai, Assert, Node.js assert, ++)"
+                "value": "An Assertion/Expectation Library (<a href=\"http://chaijs.com/\" target=\"_blank\">Chai</a>, <a href=\"https://github.com/visionmedia/better-assert\" target=\"_blank\">Better Assert</a>, <a href=\"http://nodejs.org/api/assert.html\" target=\"_blank\">Node.js assert</a>, ++)"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "3"
                 },
-                "value": "Stubs Library (Sinon)"
+                "value": "Stubs Library (<a href=\"http://sinonjs.org/\" target=\"_blank\">Sinon</a>)"
             }, {
                 "name": "li",
                 "attributes": {
                     "class": "fragment",
                     "data-fragment-index": "4"
                 },
-                "value": "Module Control (Mockery, Rewire)"
+                "value": "Module Control (<a href=\"https://github.com/mfncooper/mockery\" target=\"_blank\">Mockery</a>, <a href=\"https://github.com/jhnns/rewire\" target=\"_blank\">Rewire</a>)"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "5"
+                },
+                "value": "Coverage (<a href=\"https://github.com/visionmedia/node-jscoverage\" target=\"_blank\">node-jscoverage</a>) - not in our scope"
             }]
         }, {
             "name": "notes",
@@ -1072,11 +1079,11 @@
         }],
         [{
             "name": "p",
-            "value": "For Node, \"mocha\" is a strong standard (watch \"Jest\" though)"
+            "value": "For Node, \"<a href=\"http://visionmedia.github.io/mocha/\" target=\"_blank\">mocha</a>\" is a strong standard (watch \"<a href=\"http://facebook.github.io/jest/\" target=\"_blank\">Jest</a>\" though)"
         }, {
             "name": "notes",
             "value": [
-                "\"mocha\" is the standard for Node, It is extesible and flexible, though I would watch the new \"Jest\" by facebook which is based on Jasmine"
+                "\"mocha\" is the standard for Node, It is extensible and flexible, though I would watch the new \"Jest\" by facebook which is based on Jasmine"
             ]
         }],
         [{
@@ -1114,11 +1121,11 @@
             "value": "But what about testing the API itself?"
         }, {
             "name": "p",
-            "value": "Express based API's can be easily tested using \"supertest\""
+            "value": "Express based API's can be easily tested using \"<a href=\"https://github.com/visionmedia/supertest\" target=\"_blank\">supertest</a>\""
         }],
         [{
             "name": "h2",
-            "value": "Supertest"
+            "value": "<a href=\"https://github.com/visionmedia/supertest\" target=\"_blank\">Supertest</a>"
         }, {
             "name": "div",
             "attributes": {
