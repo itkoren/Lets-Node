@@ -417,7 +417,9 @@
             "name": "notes",
             "value": [
                 "It is a good practice to use custom errors to mark our business logic errors",
-                "Lets see an example - show crashServer4.js"
+                "Lets see an example - show crashServer4.js",
+                "",
+                "Always use Error objects to mark an error - Never use strings since you'll loose the stacktrace"
             ]
         }],
         [{
