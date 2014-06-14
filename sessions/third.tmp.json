@@ -471,10 +471,14 @@
                 "class": "absolute-element",
                 "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
             },
-            "value": "Express"
+            "value": "<a href=\"https://www.npmjs.org/~tjholowaychuk\" target=\"_blank\">Express</a>"
         }, {
             "name": "notes",
             "value": [
+                "As of today, it is possible to produce a competitive Node application whose entire stack will comfortably rest on various frameworks, tools and libraries developed exclusively by TJ.",
+                "If you are doing things with Node, you will not escape TJ. He is omnipresent. His license is MIT. His name is cited over 1.3 million times in public source code on Github. He is single, 26 years old.",
+                "His pet ferret Tobi is a running gag in the JavaScript community.",
+                "",
                 "Within five months of Node's release, in June 2009, T.J. Holowaychuk, released an open source project named Express to make web development a little easier in Node",
                 "",
                 "While working with Node, many problems we tackle, can be generically solved",
@@ -711,7 +715,7 @@
                 "class": "absolute-element",
                 "style": "position: absolute; width: 594px; height: 95px; z-index: 4; left: 198px; top: 164px;"
             },
-            "value": "Connect & Middleware"
+            "value": "<a href=\"https://github.com/visionmedia\" target=\"_blank\">Connect & Middleware</a>"
         }, {
             "name": "notes",
             "value": [
@@ -874,7 +878,7 @@
                 "When we serve HTML content, it is common to use theming or templating systems",
                 "Express supports this concepts and can work with different templating engines",
                 "By default Express uses Jade for templating",
-                "JSONP is also supported out of the box by expres using response.jsonp API",
+                "JSONP is also supported out of the box by express using response.jsonp API",
                 "",
                 "Content negotiation",
                 "A mechanism of specifying the data types a user agent is capable of consuming and prefers, and the server fulfilling the request when it can, and informing when it cannot",
@@ -907,6 +911,29 @@
                 "class": "absolute-element",
                 "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
             }
+        }],
+        [{
+            "name": "h2",
+            "value": "Short Style Interlude"
+        }, {
+            "name": "div",
+            "attributes": {
+                "style": "width: 989px; height: 648px; max-height: none; max-width: none; left: 10px; top: 10px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.27.code.style.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "There is a conspiracy theory regarding T.J. Holowaychuk being a real developer or a Joyent creation for pushing NodeJS",
+                "The conspiracy is mainly based on the number of contributions of T.J. and a very consistent style which suddenly changes in 2013",
+                "So Lets talk a little about coding styles and although we are still working on a style guide for LivePerson javascript lets look at the following"
+            ]
         }],
         [{
             "name": "pre",
