@@ -914,27 +914,6 @@
             ]
         }],
         [{
-            "name": "pre",
-            "attributes": {
-                "class": "absolute-element",
-                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
-            },
-            "value": [{
-                "name": "code",
-                "attributes": {
-                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
-                },
-                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-7.git"
-            }]
-        }, {
-            "name": "img",
-            "attributes": {
-                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
-                "class": "absolute-element",
-                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
-            }
-        }],
-        [{
             "name": "h2",
             "value": "Short Style Interlude"
         }, {
@@ -956,6 +935,27 @@
                 "The conspiracy is mainly based on the number of contributions of T.J. and a very consistent style which suddenly changes in 2013",
                 "So Lets talk a little about coding styles and although we are still working on a style guide for LivePerson javascript lets look at the following"
             ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-7.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
         }],
         [{
             "name": "pre",
