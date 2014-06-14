@@ -395,7 +395,29 @@
         }, {
             "name": "notes",
             "value": [
-                "Lets see an example - show crashServer2.js"
+                "Lets see an example - show crashServer2.js & crashServer3.js"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Custom Errors"
+        }, {
+            "name": "div",
+            "attributes": {
+                "style": "width: 989px; height: 648px; max-height: none; max-width: none; left: 10px; top: 10px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.23.handling.errors.custom.js",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "It is a good practice to use custom errors to mark our business logic errors",
+                "Lets see an example - show crashServer4.js"
             ]
         }],
         [{
@@ -404,7 +426,7 @@
         }, {
             "name": "notes",
             "value": [
-                "Lets see an example - show crashServer3.js"
+                "Lets see an example - show crashServer5.js"
             ]
         }],
         [{
