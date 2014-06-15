@@ -1123,6 +1123,10 @@
             "value": "But what about testing the API itself?"
         }, {
             "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
             "value": "Express based API's can be easily tested using \"<a href=\"https://github.com/visionmedia/supertest\" target=\"_blank\">supertest</a>\""
         }],
         [{
