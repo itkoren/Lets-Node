@@ -226,16 +226,22 @@
         }, {
             "name": "notes",
             "value": [
-                "Important to remember when testing locally"
+                "Important to remember when testing locally",
+                "",
+                "File Descriptor - abstract indicator for accessing a file",
+                "Generally, a file descriptor is an index for an entry in a kernel-resident array data structure containing the details of open files",
+                "",
+                "We should be aware that the OS resources are usually limited by a number of default parameters which we should enlarge when stress testing",
+                "The following are examples for such parameters"
             ]
         }],
         [{
             "name":"p",
-            "value":"Use <a href=\"https://github.com/alexfernandez/loadtest\" target=\"_blank\">loadtest</a> or tools like <a href=\"https://github.com/11main/nodeload\" target=\"_blank\">nodeload</a> for local stress testing"
+            "value":"Use <a href=\"https://github.com/alexfernandez/loadtest\" target=\"_blank\">loadtest</a> or tools like <a href=\"https://github.com/11main/nodeload\" target=\"_blank\">nodeload</a> for local, single node, stress testing"
         }, {
             "name": "notes",
             "value": [
-                "Before we'll deal with distributed stress testing, Lets start with local tests",
+                "Before we'll deal with distributed stress testing, Lets start with local single node tests",
                 "",
                 "Lets see the loadtest module",
                 "",
@@ -322,6 +328,32 @@
 }, {
     "steps": [
         [{
+            "name": "iframe",
+            "attributes": {
+                "src": "//player.vimeo.com/video/26326729",
+                "width": "800",
+                "height": "581",
+                "style": "width: 825px; height: 600px; max-height: none; max-width: none;",
+                "webkitallowfullscreen": true,
+                "mozallowfullscreen": true,
+                "allowfullscreen": true
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "First Lets see small video",
+                "Up until now we learned what is Node and how we can use its advantages",
+                "We saw how we can create a fast Node HTTP Web server which handles large amount of requests but everything was based on HTTP",
+                "",
+                "One of the core technologies powering the web is HTTP",
+                "Unfortunately, HTTP current version 1.1, was last updated around 1999 and in fact hardly changed since roughly 1996",
+                "",
+                "Meanwhile the web had changed quite a bit with dynamic content, pages with many resources, single page applications and much more",
+                "",
+                "For many years, HTTP and real-time applications didn’t really go together very well"
+            ]
+        }],
+        [{
             "name": "img",
             "attributes": {
                 "src": "https://cloud.githubusercontent.com/assets/3624786/3122566/a49b9cc0-e768-11e3-93a6-72c6049953fb.png",
@@ -338,6 +370,7 @@
         }, {
             "name": "notes",
             "value": [
+                "First Lets see small video",
                 "Up until now we learned what is Node and how we can use its advantages",
                 "We saw how we can create a fast Node HTTP Web server which handles large amount of requests but everything was based on HTTP",
                 "",
@@ -348,21 +381,6 @@
                 "",
                 "For many years, HTTP and real-time applications didn’t really go together very well"
             ]
-        }],
-        [{
-            "name": "h2",
-            "value": "WebSockets"
-        }, {
-            "name": "iframe",
-            "attributes": {
-                "src": "//player.vimeo.com/video/26326729",
-                "width": "800",
-                "height": "581",
-                "style": "width: 825px; height: 600px; max-height: none; max-width: none;",
-                "webkitallowfullscreen": true,
-                "mozallowfullscreen": true,
-                "allowfullscreen": true
-            }
         }],
         [{
             "name": "h2",
@@ -406,6 +424,20 @@
                     "value" : "One slow response delays all the other requests (head of line blocking)"
                 }
             ]
+        }, {
+            "name": "notes",
+            "value": [
+                "First Lets see small video",
+                "Up until now we learned what is Node and how we can use its advantages",
+                "We saw how we can create a fast Node HTTP Web server which handles large amount of requests but everything was based on HTTP",
+                "",
+                "One of the core technologies powering the web is HTTP",
+                "Unfortunately, HTTP current version 1.1, was last updated around 1999 and in fact hardly changed since roughly 1996",
+                "",
+                "Meanwhile the web had changed quite a bit with dynamic content, pages with many resources, single page applications and much more",
+                "",
+                "For many years, HTTP and real-time applications didn’t really go together very well"
+            ]
         }],
         [{
             "name": "p",
@@ -416,7 +448,12 @@
                 "But Node is best fitting DIRTy applications - these can use one of the most prominent technologies today - WebSockets",
                 "The WebSocket protocol was developed to overcome the shortcomings of HTTP in relation to real-time applications",
                 "WebSockets give browsers the ability to communicate with a server over a full-duplex communication channel",
-                "At its core, a WebSocket connection is just a conventional TCP connection between an HTTP server and an HTTP client"
+                "At its core, a WebSocket connection is just a conventional TCP connection between an HTTP server and an HTTP client",
+                "",
+                "The browser is able to optimize and utilize a single connection per domain",
+                "no need for polling",
+                "messaging model",
+                "optimized framing"
             ]
         }],
         [{
