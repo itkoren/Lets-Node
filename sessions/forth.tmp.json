@@ -1498,4 +1498,50 @@
             }
         }]
     ]
+}, {
+    "steps": [
+        [{
+            "name": "h2",
+            "value": "What we've covered in this course"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Day 1: Node Basics & Overview, Standard Patterns & Modules"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Day 2: NPM, Working with Data - Streams & Pipes, Buffers, Data Serving"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Day 3: Web Applications with Express and Unit Testing"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "Day 4: LivePerson Modules, Deployment & Scaling"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "In our exercises We started with a small function which calculates an AFINN based score for a given string and completed with a full working Web application & API which also uses WebSockets and is ready for scale"
+            ]
+        }]
+    ]
 }]
