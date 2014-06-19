@@ -1485,17 +1485,6 @@
                 "class": "absolute-element",
                 "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
             }
-        }],
-        [{
-            "name": "h2",
-            "value": "<a href=\"https://www.youtube.com/watch?v=F8iisVZ6MjY&list=PL5JR8tO1JinNhPknA14oW4wm8QkMLQE1Y\" target=\"_blank\">Additional Resources</a>"
-        }, {
-            "name": "iframe",
-            "attributes": {
-                "class": "absolute-element",
-                "src": "//www.youtube.com/embed/F8iisVZ6MjY?list=PL5JR8tO1JinNhPknA14oW4wm8QkMLQE1Y",
-                "style": "width: 805px; height: 560px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 121px; top: 141px;"
-            }
         }]
     ]
 }, {
@@ -1542,6 +1531,17 @@
             "value": [
                 "In our exercises We started with a small function which calculates an AFINN based score for a given string and completed with a full working Web application & API which also uses WebSockets and is ready for scale"
             ]
+        }],
+        [{
+            "name": "h2",
+            "value": "<a href=\"https://www.youtube.com/watch?v=F8iisVZ6MjY&list=PL5JR8tO1JinNhPknA14oW4wm8QkMLQE1Y\" target=\"_blank\">Additional Resources</a>"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "//www.youtube.com/embed/F8iisVZ6MjY?list=PL5JR8tO1JinNhPknA14oW4wm8QkMLQE1Y",
+                "style": "width: 805px; height: 560px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 121px; top: 141px;"
+            }
         }]
     ]
 }]
