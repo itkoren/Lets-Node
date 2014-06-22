@@ -525,7 +525,14 @@
             "value": [
                 "At its core, a WebSocket connection is just a conventional TCP connection between an HTTP server and an HTTP client.",
                 "It’s established using a handshake protocol, which is very similar to an HTTP handshake",
-                "Although this starts out as a regular HTTP connection, the client asks to “upgrade” this connection to a WebSocket connection"
+                "Although this starts out as a regular HTTP connection, the client asks to “upgrade” this connection to a WebSocket connection",
+                "",
+                "The Sec-WebSocket-Key & Sec-WebSocket-Accept are only used at the handshake phase, so that browser can confirm that the server understands WebSocket. This prevents a cross-protocol attack",
+                "",
+                "The Sec-WebSocket-Key is just a set of random bytes. The server takes these bytes and appends to this key a special Global Unique Identifier (GUID) string 258EAFA5-E914-47DA-95CA-C5AB0DC85B11,",
+                "then it creates the Secure Hash Algorithm SHA1 hash from it performs the base64 encoding.",
+                "The resulting string of bytes needs to be used by both the server and the client, and this string won’t be used by the network endpoints that do not understand the WebSocket protocol.",
+                "Then this value would be copied in the Sec-WebSocket-Accept header field. The server computes the value and sends the response back confirming the protocol upgrade"
             ]
         }],
         [{
